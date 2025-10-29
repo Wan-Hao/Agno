@@ -6,7 +6,9 @@
       "properties": {
         "description": "研究物体机械运动的基本规律，并引入物理学研究中的核心方法——建立物理模型。这是经典力学的入门，为后续学习牛顿运动定律等内容奠定基础。",
         "subject": "Physics",
-        "theme": "机械运动与物理模型"
+        "theme": "机械运动与物理模型",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点旨在引入基本规律与核心方法（物理模型），要求学习者解释和说明相关概念，核心目标是建立对物理学入门知识的理解，而非仅仅记忆或应用。"
       }
     },
     {
@@ -20,14 +22,18 @@
         "theme": "机械运动与物理模型",
         "cultivated_abilities": [
           "科学态度与责任"
-        ]
+        ],
+        "bloom_level": "Understand",
+        "bloom_reasoning": "核心要求是“了解”背景和“认识”作用，即解释和说明事实与概念，属于理解层级。"
       }
     },
     {
       "id": "galileo_experimental_method",
       "label": "伽利略的实验思想和方法",
       "properties": {
-        "description": "指伽利略在研究自然现象时，开创性地结合了数学推导、实验验证和逻辑推理的方法。他强调，通过理想实验和实际检验来发现自然规律，这与亚里士多德纯粹思辨的方法形成鲜明对比，标志着近代科学的开端。"
+        "description": "指伽利略在研究自然现象时，开创性地结合了数学推导、实验验证和逻辑推理的方法。他强调，通过理想实验和实际检验来发现自然规律，这与亚里士多德纯粹思辨的方法形成鲜明对比，标志着近代科学的开端。",
+        "bloom_level": "Analyze",
+        "bloom_reasoning": "核心要求是将伽利略的方法分解为不同要素，并与亚里士多德的方法进行比较和区分，理解其结构和关系，这属于分析层级。"
       }
     },
     {
@@ -42,28 +48,36 @@
         "cultivated_abilities": [
           "科学思维",
           "物理观念"
-        ]
+        ],
+        "bloom_level": "Analyze",
+        "bloom_reasoning": "学习者需分解具体物理情境，分析物体尺寸与研究问题等要素，以判断建构质点模型的适用条件，这属于分析层级的认知活动。"
       }
     },
     {
       "id": "physical_model",
       "label": "物理模型",
       "properties": {
-        "description": "为了研究特定物理问题，突出问题的主要方面，忽略次要因素，而建立的理想化模型。例如质点、点电荷、理想气体等。"
+        "description": "为了研究特定物理问题，突出问题的主要方面，忽略次要因素，而建立的理想化模型。例如质点、点电荷、理想气体等。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "核心要求是解释“物理模型”的含义、目的和理想化方法，属于对概念的阐释和说明，超越了简单记忆。"
       }
     },
     {
       "id": "point_mass",
       "label": "质点",
       "properties": {
-        "description": "用来代替物体的有质量的点。当物体的形状和大小对所研究的问题影响很小或没有影响时，可以把物体看作是一个有质量的点，即质点。"
+        "description": "用来代替物体的有质量的点。当物体的形状和大小对所研究的问题影响很小或没有影响时，可以把物体看作是一个有质量的点，即质点。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "学习者不仅要记住“质点”的定义，更要理解并解释“何时”可以把物体看作质点，这要求对概念的内涵和适用条件进行说明。"
       }
     },
     {
       "id": "abstraction_method",
       "label": "抽象方法",
       "properties": {
-        "description": "在科学研究中，通过抽取研究对象最本质的特征，舍弃非本质特征，从而简化问题的一种思维方法。建立物理模型就是抽象方法的体现。"
+        "description": "在科学研究中，通过抽取研究对象最本质的特征，舍弃非本质特征，从而简化问题的一种思维方法。建立物理模型就是抽象方法的体现。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点要求学习者解释一种思维方法的内涵与作用，并能举例说明，属于对概念的理解。"
       }
     },
     {
@@ -78,112 +92,144 @@
         "cultivated_abilities": [
           "物理观念",
           "科学思维"
-        ]
+        ],
+        "bloom_level": "Analyze",
+        "bloom_reasoning": "该知识点要求学习者通过实验和极限方法，探究并区分位移、速度、加速度等概念的内在联系与区别，属于分析层级。"
       }
     },
     {
       "id": "kinematics_concepts",
       "label": "描述运动的基本概念",
       "properties": {
-        "description": "描述物体机械运动所必需的一组基本物理量和框架，包括参考系、时间、位移和路程等。"
+        "description": "描述物体机械运动所必需的一组基本物理量和框架，包括参考系、时间、位移和路程等。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点要求学习者解释和说明参考系、位移等基本概念的含义，如区分位移和路程，这超越了单纯记忆，符合“理解”层级的要求。"
       }
     },
     {
       "id": "reference_frame",
       "label": "参考系与坐标系",
       "properties": {
-        "description": "为描述物体的运动而选作参考的、假定为不动的物体或物体系。为了定量描述物体的位置及位置变化，通常在参考系上建立坐标系。"
+        "description": "为描述物体的运动而选作参考的、假定为不动的物体或物体系。为了定量描述物体的位置及位置变化，通常在参考系上建立坐标系。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点要求学习者解释“参考系”是什么，并说明建立坐标系的目的。这要求对概念的含义进行说明和解释，属于理解层级。"
       }
     },
     {
       "id": "time_and_instant",
       "label": "时间和时刻",
       "properties": {
-        "description": "时刻是指某一瞬时，在时间轴上用一个点表示。时间间隔（简称时间）是指两个时刻之间的间隔，在时间轴上用一段线段表示。"
+        "description": "时刻是指某一瞬时，在时间轴上用一个点表示。时间间隔（简称时间）是指两个时刻之间的间隔，在时间轴上用一段线段表示。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "核心学习目标是理解“时刻”和“时间”的含义，并能解释二者（点与线段）的区别，这超越了单纯的记忆，符合理解层级。"
       }
     },
     {
       "id": "displacement_and_distance",
       "label": "位移和路程",
       "properties": {
-        "description": "位移是描述物体位置变化的物理量，是从初位置指向末位置的有向线段。路程是物体运动轨迹的长度。位移是矢量，路程是标量。"
+        "description": "位移是描述物体位置变化的物理量，是从初位置指向末位置的有向线段。路程是物体运动轨迹的长度。位移是矢量，路程是标量。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点要求学习者解释位移和路程的定义，并说明二者作为矢量和标量的本质区别，核心在于理解概念的含义。"
       }
     },
     {
       "id": "vector_and_scalar",
       "label": "矢量与标量",
       "properties": {
-        "description": "既有大小又有方向的物理量称为矢量（如位移、速度）。只有大小没有方向的物理量称为标量（如路程、质量）。"
+        "description": "既有大小又有方向的物理量称为矢量（如位移、速度）。只有大小没有方向的物理量称为标量（如路程、质量）。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点的核心是回忆矢量和标量的定义，并能识别出对应的物理量，属于对事实性知识的记忆。"
       }
     },
     {
       "id": "velocity_concepts",
       "label": "速度",
       "properties": {
-        "description": "描述物体运动快慢和方向的物理量，是位移对时间的变化率。分为平均速度和瞬时速度。"
+        "description": "描述物体运动快慢和方向的物理量，是位移对时间的变化率。分为平均速度和瞬时速度。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点要求解释速度的物理意义，并区分平均与瞬时速度，是对概念含义的掌握，超越了单纯的记忆。"
       }
     },
     {
       "id": "average_velocity",
       "label": "平均速度",
       "properties": {
-        "description": "在某段时间内，物体的位移与发生这段位移所用时间的比值。它只能粗略地描述物体在该段时间内的运动情况。"
+        "description": "在某段时间内，物体的位移与发生这段位移所用时间的比值。它只能粗略地描述物体在该段时间内的运动情况。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "学习者需要解释平均速度的定义，并理解其作为“位移与时间的比值”这一概念的含义，这超越了单纯的记忆。"
       }
     },
     {
       "id": "instantaneous_velocity",
       "label": "瞬时速度",
       "properties": {
-        "description": "运动物体在某一时刻或某一位置的速度。精确地描述了物体在该时刻的运动快慢和方向。在极限思想中，当时间间隔Δt趋于零时，平均速度的极限就是瞬时速度。"
+        "description": "运动物体在某一时刻或某一位置的速度。精确地描述了物体在该时刻的运动快慢和方向。在极限思想中，当时间间隔Δt趋于零时，平均速度的极限就是瞬时速度。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "核心是理解其作为“平均速度的极限”的含义，需要解释概念间的关系，超越了简单记忆。"
       }
     },
     {
       "id": "speed",
       "label": "速率",
       "properties": {
-        "description": "瞬时速度的大小。速率是标量，只表示运动的快慢，不表示运动的方向。"
+        "description": "瞬时速度的大小。速率是标量，只表示运动的快慢，不表示运动的方向。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点要求学习者解释速率的概念，并说明其作为标量与速度（矢量）的区别，这超越了单纯的记忆，属于理解范畴。"
       }
     },
     {
       "id": "acceleration_concept",
       "label": "加速度",
       "properties": {
-        "description": "描述速度变化快慢和方向的物理量，定义为速度的变化量与发生这一变化所用时间的比值。加速度是矢量，其方向与速度变化量的方向相同。"
+        "description": "描述速度变化快慢和方向的物理量，定义为速度的变化量与发生这一变化所用时间的比值。加速度是矢量，其方向与速度变化量的方向相同。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点要求学习者解释加速度的定义、物理意义和矢量属性，这属于对概念的理解和阐释，超越了单纯的记忆层面。"
       }
     },
     {
       "id": "uniformly_accelerated_linear_motion",
       "label": "匀变速直线运动",
       "properties": {
-        "description": "沿着一条直线，且加速度不变的运动。这是理想化的直线运动模型，其规律是研究复杂运动的基础。"
+        "description": "沿着一条直线，且加速度不变的运动。这是理想化的直线运动模型，其规律是研究复杂运动的基础。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点的核心是解释和说明其定义、特征（加速度不变）以及作为理想化基础模型的意义，超越了单纯的记忆。"
       }
     },
     {
       "id": "motion_graphs",
       "label": "运动图像",
       "properties": {
-        "description": "用图像来直观地描述物体的运动规律，是物理学中一种重要的研究方法。主要包括位移-时间图像（x-t图像）和速度-时间图像（v-t图像）。"
+        "description": "用图像来直观地描述物体的运动规律，是物理学中一种重要的研究方法。主要包括位移-时间图像（x-t图像）和速度-时间图像（v-t图像）。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "核心学习目标是理解图像的斜率、截距、面积等要素所代表的物理意义，并能解释和说明物体的运动规律。"
       }
     },
     {
       "id": "xt_graph",
       "label": "x-t 图像",
       "properties": {
-        "description": "位移-时间图像。图像的斜率表示物体的速度。"
+        "description": "位移-时间图像。图像的斜率表示物体的速度。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点要求学习者解释图像斜率所代表的物理意义（速度），这超越了简单记忆，属于对概念含义的理解和阐释。"
       }
     },
     {
       "id": "vt_graph",
       "label": "v-t 图像",
       "properties": {
-        "description": "速度-时间图像。图像的斜率表示物体的加速度，图像与时间轴所围成的面积表示物体的位移。"
+        "description": "速度-时间图像。图像的斜率表示物体的加速度，图像与时间轴所围成的面积表示物体的位移。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点要求学习者理解图像特征（斜率、面积）与物理量（加速度、位移）之间的对应关系，属于解释和说明材料含义的理解层次。"
       }
     },
     {
       "id": "limit_method",
       "label": "极限思想",
       "properties": {
-        "description": "一种重要的数学思想，也是物理学研究中的常用方法。用极限思想可以定义瞬时速度、瞬时加速度等概念，是连接宏观与微观、平均量与瞬时量的桥梁。"
+        "description": "一种重要的数学思想，也是物理学研究中的常用方法。用极限思想可以定义瞬时速度、瞬时加速度等概念，是连接宏观与微观、平均量与瞬时量的桥梁。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点要求解释极限思想的内涵，说明其如何定义新概念、连接不同物理量，属于对抽象概念的解释和说明。"
       }
     },
     {
@@ -198,28 +244,36 @@
         "cultivated_abilities": [
           "科学探究",
           "科学态度与责任"
-        ]
+        ],
+        "bloom_level": "Analyze",
+        "bloom_reasoning": "核心要求是对比不同科学观点（伽利略与亚里士多德），并分析实验与推理在科学发展中的结构与关系。"
       }
     },
     {
       "id": "free_fall_definition",
       "label": "自由落体运动",
       "properties": {
-        "description": "物体仅在重力作用下从静止开始下落的运动。这是一种初速度为零、加速度为重力加速度g的匀加速直线运动。"
+        "description": "物体仅在重力作用下从静止开始下落的运动。这是一种初速度为零、加速度为重力加速度g的匀加速直线运动。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点不仅要求回忆定义，更要求解释其作为匀加速直线运动的本质特征，属于对概念含义的理解。"
       }
     },
     {
       "id": "gravity_acceleration",
       "label": "重力加速度",
       "properties": {
-        "description": "在同一地区，一切物体自由下落的加速度都相同，这个加速度叫做自由落体加速度，也叫重力加速度，用g表示。其大小和方向通常不随物体和时间变化，但在地球不同位置会略有差异。"
+        "description": "在同一地区，一切物体自由下落的加速度都相同，这个加速度叫做自由落体加速度，也叫重力加速度，用g表示。其大小和方向通常不随物体和时间变化，但在地球不同位置会略有差异。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点的核心是要求学习者记住重力加速度的定义、符号（g）以及“在同一地区都相同”等基本事实。"
       }
     },
     {
       "id": "galileo_vs_aristotle",
       "label": "伽利略与亚里士多德的观点对比",
       "properties": {
-        "description": "亚里士多德认为力是维持物体运动的原因，物体越重下落越快。伽利略通过逻辑思辨（思想实验）和斜面实验，推翻了亚里士多德的结论，指出力是改变物体运动状态的原因，并得出了自由落体运动的规律。这一过程体现了科学推理与实验验证的结合。"
+        "description": "亚里士多德认为力是维持物体运动的原因，物体越重下落越快。伽利略通过逻辑思辨（思想实验）和斜面实验，推翻了亚里士多德的结论，指出力是改变物体运动状态的原因，并得出了自由落体运动的规律。这一过程体现了科学推理与实验验证的结合。",
+        "bloom_level": "Analyze",
+        "bloom_reasoning": "核心学习目标是对比两种观点，并分析伽利略用以推翻亚里士多德的逻辑思辨与实验验证过程。这要求学习者分解信息、区分观点、理清因果关系。"
       }
     },
     {
@@ -233,14 +287,18 @@
         "theme": "机械运动与物理模型",
         "cultivated_abilities": [
           "科学探究"
-        ]
+        ],
+        "bloom_level": "Analyze",
+        "bloom_reasoning": "该学习目标要求学生分解观察到的现象，通过比较（质量相同、形状不同），推断出空气阻力是造成运动差异的原因，属于分析层级。"
       }
     },
     {
       "id": "air_resistance",
       "label": "空气阻力",
       "properties": {
-        "description": "物体在空气中运动时所受到的阻碍力。它的大小与物体的形状、大小、运动速度等因素有关。在许多物理问题中，当空气阻力远小于其他力时可被忽略，但在高速运动或轻小物体运动时则必须考虑。"
+        "description": "物体在空气中运动时所受到的阻碍力。它的大小与物体的形状、大小、运动速度等因素有关。在许多物理问题中，当空气阻力远小于其他力时可被忽略，但在高速运动或轻小物体运动时则必须考虑。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点不仅要求记住定义，更要求解释其影响因素和适用条件，属于对概念的内化理解。"
       }
     },
     {
@@ -254,7 +312,9 @@
         "theme": "机械运动与物理模型",
         "cultivated_abilities": [
           "科学态度与责任"
-        ]
+        ],
+        "bloom_level": "Evaluate",
+        "bloom_reasoning": "核心任务是讨论“重大意义”，要求学习者基于标准（对科学和人类发展的影响）对伽利略实验的价值和重要性做出判断。"
       }
     },
     {
@@ -263,7 +323,9 @@
       "properties": {
         "description": "研究物体运动状态改变的原因，即力。",
         "subject": "Physics",
-        "theme": "力与运动定律"
+        "theme": "力与运动定律",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点的核心是理解“力是改变物体运动状态的原因”这一基本概念，并能解释力与运动变化之间的关系。"
       }
     },
     {
@@ -277,56 +339,72 @@
         "theme": "力与运动定律",
         "cultivated_abilities": [
           "科学探究"
-        ]
+        ],
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点的核心是“认识”几种基本力，即识别和回忆其定义与性质，是应用更高级别知识的前提，符合“记忆”层级的要求。"
       }
     },
     {
       "id": "gravity",
       "label": "重力",
       "properties": {
-        "description": "重力是力学中最常见的力之一。"
+        "description": "重力是力学中最常见的力之一。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点的核心是回忆“重力”是力的一种，属于对事实性知识的记忆。"
       }
     },
     {
       "id": "elastic_force",
       "label": "弹力",
       "properties": {
-        "description": "弹力是力学中常见的接触力之一。"
+        "description": "弹力是力学中常见的接触力之一。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点仅提供了“弹力”的基本定义和分类，学习目标是要求学习者记住和识别这个概念，属于最低阶的认知活动。"
       }
     },
     {
       "id": "friction",
       "label": "摩擦力",
       "properties": {
-        "description": "摩擦力是力学中常见的接触力之一。"
+        "description": "摩擦力是力学中常见的接触力之一。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点是对“摩擦力”这一基本概念的定义，核心学习目标是识别和回忆其作为一种接触力的属性。"
       }
     },
     {
       "id": "hookes_law",
       "label": "胡克定律",
       "properties": {
-        "description": "胡克定律定量地描述了弹簧的弹力与其形变量的关系。"
+        "description": "胡克定律定量地描述了弹簧的弹力与其形变量的关系。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点的核心是理解并解释弹力与形变量的定量关系，这超越了简单的记忆，属于理解层面。"
       }
     },
     {
       "id": "static_friction",
       "label": "静摩擦力",
       "properties": {
-        "description": "静摩擦力是摩擦力的一种，发生在物体有相对运动趋势但未发生相对运动时。"
+        "description": "静摩擦力是摩擦力的一种，发生在物体有相对运动趋势但未发生相对运动时。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点是对“静摩擦力”这一名词的定义性描述，学习目标是记住其概念和发生条件，属于对事实性知识的回忆和识别。"
       }
     },
     {
       "id": "kinetic_friction",
       "label": "滑动摩擦力",
       "properties": {
-        "description": "滑动摩擦力是摩擦力的一种，发生在物体间存在相对滑动时。"
+        "description": "滑动摩擦力是摩擦力的一种，发生在物体间存在相对滑动时。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点要求学习者回忆“滑动摩擦力”的定义和其发生条件，属于对事实性知识的识别和回忆。"
       }
     },
     {
       "id": "friction_coefficient",
       "label": "动摩擦因数",
       "properties": {
-        "description": "动摩擦因数是决定滑动摩擦力大小的重要参数。"
+        "description": "动摩擦因数是决定滑动摩擦力大小的重要参数。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点要求学习者记住“动摩擦因数”这一术语的定义和概念，属于对事实性知识的回忆和识别。"
       }
     },
     {
@@ -340,35 +418,45 @@
         "theme": "力与运动定律",
         "cultivated_abilities": [
           "科学思维"
-        ]
+        ],
+        "bloom_level": "Apply",
+        "bloom_reasoning": "该知识点的核心是要求学生在具体物理情境中，运用平行四边形定则或正交分解法来求解合力或分力，属于将抽象的规则和原理应用于解决实际问题。"
       }
     },
     {
       "id": "force_as_vector",
       "label": "力是矢量",
       "properties": {
-        "description": "力是物理学中矢量的一个典型例子。"
+        "description": "力是物理学中矢量的一个典型例子。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点的核心学习目标是让学习者记住“力是矢量”这一基本事实，属于对事实性知识的识别与回忆。"
       }
     },
     {
       "id": "parallelogram_rule",
       "label": "平行四边形定则",
       "properties": {
-        "description": "平行四边形定则是进行力的合成与分解的基本法则。"
+        "description": "平行四边形定则是进行力的合成与分解的基本法则。",
+        "bloom_level": "Apply",
+        "bloom_reasoning": "该定则是一个基本法则，其核心学习目标是在具体情境中应用它进行力的合成与分解计算。"
       }
     },
     {
       "id": "orthogonal_decomposition",
       "label": "正交分解法",
       "properties": {
-        "description": "正交分解法是处理不在同一直线上的多个力的一种便捷、系统的方法。"
+        "description": "正交分解法是处理不在同一直线上的多个力的一种便捷、系统的方法。",
+        "bloom_level": "Apply",
+        "bloom_reasoning": "正交分解法是一种具体的操作方法，学习的核心在于应用该方法解决实际的力的计算问题，属于在新情境中使用规则。"
       }
     },
     {
       "id": "equilibrium_of_concurrent_forces",
       "label": "共点力平衡",
       "properties": {
-        "description": "共点力平衡的条件是所有力的矢量和（合力）为零。"
+        "description": "共点力平衡的条件是所有力的矢量和（合力）为零。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点是对“共点力平衡条件”这一定义或事实的陈述，学习目标是识别和回忆这个核心条件。"
       }
     },
     {
@@ -382,56 +470,72 @@
         "theme": "力与运动定律",
         "cultivated_abilities": [
           "科学探究"
-        ]
+        ],
+        "bloom_level": "Apply",
+        "bloom_reasoning": "学习牛顿定律的核心目标是运用其分析和解决具体力学问题，如进行受力分析和运动计算，这属于将规律用于新情境的应用层级。"
       }
     },
     {
       "id": "newtons_first_law",
       "label": "牛顿第一定律",
       "properties": {
-        "description": "牛顿第一定律是牛顿运动定律的组成部分，揭示了力和运动的关系。"
+        "description": "牛顿第一定律是牛顿运动定律的组成部分，揭示了力和运动的关系。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "学习该定律不仅要回忆其内容，更要解释其揭示的力和运动的关系。"
       }
     },
     {
       "id": "inertia",
       "label": "惯性",
       "properties": {
-        "description": "惯性是物体保持其运动状态不变的性质，是牛顿第一定律的核心。"
+        "description": "惯性是物体保持其运动状态不变的性质，是牛顿第一定律的核心。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点是对“惯性”这一物理概念的基本定义，学习目标是识别和回忆其含义，属于记忆层级。"
       }
     },
     {
       "id": "newtons_second_law",
       "label": "牛顿第二定律",
       "properties": {
-        "description": "牛顿第二定律是牛顿运动定律的组成部分，定量地描述了力、质量和加速度的关系。"
+        "description": "牛顿第二定律是牛顿运动定律的组成部分，定量地描述了力、质量和加速度的关系。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点的核心是描述和解释力、质量、加速度这三个物理量之间的定量关系，符合“理解”层级的要求。"
       }
     },
     {
       "id": "resultant_force",
       "label": "合外力",
       "properties": {
-        "description": "牛顿第二定律中的力F指的是物体所受的合外力。"
+        "description": "牛顿第二定律中的力F指的是物体所受的合外力。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点是对“合外力”的定义性陈述，学习目标是记住并识别其在牛顿第二定律中的特定含义，属于对事实性知识的回忆。"
       }
     },
     {
       "id": "newtons_third_law",
       "label": "牛顿第三定律",
       "properties": {
-        "description": "牛顿第三定律是牛顿运动定律的组成部分，揭示了相互作用力的规律。"
+        "description": "牛顿第三定律是牛顿运动定律的组成部分，揭示了相互作用力的规律。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "学习者需解释和说明相互作用力的规律，理解其含义，这符合理解层级的定义。"
       }
     },
     {
       "id": "action_reaction_pair",
       "label": "作用力与反作用力",
       "properties": {
-        "description": "作用力与反作用力的关系是牛顿第三定律的核心内容。"
+        "description": "作用力与反作用力的关系是牛顿第三定律的核心内容。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "核心学习目标是解释和说明作用力与反作用力之间的关系，这超越了单纯的记忆，属于理解层级。"
       }
     },
     {
       "id": "overweight_and_weightlessness",
       "label": "超重与失重",
       "properties": {
-        "description": "超重和失重现象是牛顿第二定律在竖直方向存在加速度时的具体表现。"
+        "description": "超重和失重现象是牛顿第二定律在竖直方向存在加速度时的具体表现。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点的核心是解释超重与失重现象背后的物理原理（牛顿第二定律），属于对概念和规律的阐释，是典型的理解层级。"
       }
     },
     {
@@ -445,7 +549,9 @@
         "theme": "力与运动定律",
         "cultivated_abilities": [
           "科学态度与责任"
-        ]
+        ],
+        "bloom_level": "Understand",
+        "bloom_reasoning": "核心是理解单位制作为物理学计算基础的意义，并解释其规范作用，超越了对单位名称的单纯记忆。"
       }
     },
     {
@@ -459,91 +565,117 @@
         "theme": "单位制",
         "cultivated_abilities": [
           "科学态度与责任"
-        ]
+        ],
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点的核心是要求学习者记住“国际单位制”的定义和事实，即它是一个标准度量衡系统，属于事实性知识的回忆。"
       }
     },
     {
       "id": "base_units",
       "label": "基本单位",
       "properties": {
-        "description": "基本单位是构成国际单位制的基础。"
+        "description": "基本单位是构成国际单位制的基础。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点是关于“基本单位”的定义，核心学习目标是记住这个事实性知识，并能在需要时回忆或识别它。"
       }
     },
     {
       "id": "derived_units",
       "label": "导出单位",
       "properties": {
-        "description": "导出单位是由基本单位通过物理关系式推导出来的。"
+        "description": "导出单位是由基本单位通过物理关系式推导出来的。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点要求学习者解释“导出单位”与“基本单位”的关系，理解其“推导”出来的概念，超越了单纯的定义记忆。"
       }
     },
     {
       "id": "friction_application_prevention",
       "label": "摩擦力的应用与预防",
       "properties": {
-        "description": "该知识点探讨如何在实际生活中利用或减小摩擦力。"
+        "description": "该知识点探讨如何在实际生活中利用或减小摩擦力。",
+        "bloom_level": "Apply",
+        "bloom_reasoning": "该知识点要求学习者将关于摩擦力的知识（规则）运用到“如何利用或减小”等具体的生活情境中，解决实际问题。"
       }
     },
     {
       "id": "overweight_weightlessness_experience",
       "label": "超重与失重体验",
       "properties": {
-        "description": "通过实际体验来加深对超重和失重概念的理解。"
+        "description": "通过实际体验来加深对超重和失重概念的理解。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该学习活动旨在通过体验来解释和说明概念，核心是加深对知识含义的把握，符合“理解”的定义。"
       }
     },
     {
       "id": "acceleration_display_design",
       "label": "加速度显示装置设计",
       "properties": {
-        "description": "加速度显示装置的设计是牛顿第二定律的一个综合性应用实践。"
+        "description": "加速度显示装置的设计是牛顿第二定律的一个综合性应用实践。",
+        "bloom_level": "Create",
+        "bloom_reasoning": "该知识点的核心是“设计”一个全新的装置，要求学习者组合原理、材料等元素，构建一个功能性的新整体，是创造层级的典型活动。"
       }
     },
     {
       "id": "KP_Sensors",
       "label": "传感器",
       "properties": {
-        "description": "传感器 (Sensors)"
+        "description": "传感器 (Sensors)",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点为一个基础名词，其核心学习目标是记忆其定义和识别它，属于认知活动的起点。"
       }
     },
     {
       "id": "KP_CommonSensorPrinciples",
       "label": "常见传感器的功能与基本工作原理",
       "properties": {
-        "description": "常见传感器的功能与基本工作原理 (Functions and basic working principles of common sensors)"
+        "description": "常见传感器的功能与基本工作原理 (Functions and basic working principles of common sensors)",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点要求解释和说明传感器的功能与工作原理，核心是理解其含义，超越了单纯的记忆和识别。"
       }
     },
     {
       "id": "KP_Photoresistor",
       "label": "光敏电阻",
       "properties": {
-        "description": "光敏电阻 (Photoresistor)"
+        "description": "光敏电阻 (Photoresistor)",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点为基础物理元件，核心学习目标是记住其名称、定义、符号和基本特性，属于对事实性知识的回忆和识别。"
       }
     },
     {
       "id": "KP_Thermistor",
       "label": "热敏电阻",
       "properties": {
-        "description": "热敏电阻 (Thermistor)"
+        "description": "热敏电阻 (Thermistor)",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点是一个基础名词概念。学习此知识点的核心在于记忆其定义、名称和识别该元件，属于最低阶的认知水平。"
       }
     },
     {
       "id": "KP_HallElement",
       "label": "霍尔元件",
       "properties": {
-        "description": "霍尔元件 (Hall element)"
+        "description": "霍尔元件 (Hall element)",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点仅为一专有名词。在无更多上下文的情况下，其最基础的学习目标是识别和回忆该名词本身，属于对事实性知识的记忆。"
       }
     },
     {
       "id": "KP_SensorApplications",
       "label": "传感器的应用",
       "properties": {
-        "description": "传感器的应用 (Applications of sensors)"
+        "description": "传感器的应用 (Applications of sensors)",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "核心在于解释和描述传感器在具体场景中的作用，而不仅是简单地列举或回忆其应用实例。"
       }
     },
     {
       "id": "KP_HallEffect",
       "label": "霍尔效应",
       "properties": {
-        "description": "霍尔效应 (Hall effect)"
+        "description": "霍尔效应 (Hall effect)",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "学习此知识点的核心是理解其物理概念、发生机理，并能够对其进行解释和描述，超越了单纯的记忆。"
       }
     },
     {
@@ -551,7 +683,9 @@
       "label": "传感器在生活中的应用",
       "properties": {
         "description": "探讨传感器在各种日常生活设备和系统中的应用，例如智能手机、家用电器和汽车。",
-        "category": "传感器"
+        "category": "传感器",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点要求学习者解释和描述传感器在具体设备中的作用，是对事实和概念的理解，而非简单记忆或在新情境中应用。"
       }
     },
     {
@@ -560,259 +694,333 @@
       "properties": {
         "description": "探索物质在原子和原子核层面的结构、性质和相互作用规律，是现代物理学的重要组成部分。",
         "subject": "Physics",
-        "theme": "原子与原子核"
+        "theme": "原子与原子核",
+        "bloom_level": "Analyze",
+        "bloom_reasoning": "核心在于探索物质的微观结构与相互作用规律，需要将整体分解为部分并分析其关系，符合分析层级的要求。"
       }
     },
     {
       "id": "atomic_structure_models",
       "label": "原子结构模型",
       "properties": {
-        "description": "用于描述原子内部结构的理论模型，经历了从汤姆孙模型到卢瑟福核式结构模型，再到玻尔模型和量子力学模型的演变。"
+        "description": "用于描述原子内部结构的理论模型，经历了从汤姆孙模型到卢瑟福核式结构模型，再到玻尔模型和量子力学模型的演变。",
+        "bloom_level": "Analyze",
+        "bloom_reasoning": "核心在于比较各模型的差异与联系，分析实验证据如何推动理论演进。这涉及到对信息进行分解和探究内在结构，符合分析层级。"
       }
     },
     {
       "id": "rutherford_nuclear_model",
       "label": "卢瑟福核式结构模型",
       "properties": {
-        "description": "由卢瑟福基于α粒子散射实验提出的原子模型。该模型认为原子中心有一个带正电的、质量集中的核，电子在核外空间绕核运动。"
+        "description": "由卢瑟福基于α粒子散射实验提出的原子模型。该模型认为原子中心有一个带正电的、质量集中的核，电子在核外空间绕核运动。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "学习者需解释原子核、电子等组成部分及其关系，属于对概念含义的理解，超越了简单的事实记忆。"
       }
     },
     {
       "id": "alpha_particle_scattering_experiment",
       "label": "α粒子散射实验",
       "properties": {
-        "description": "用α粒子轰击金箔，观察其偏转情况的实验。实验结果揭示了原子内部存在一个很小的、带正电的原子核，为核式结构模型的建立提供了决定性证据。"
+        "description": "用α粒子轰击金箔，观察其偏转情况的实验。实验结果揭示了原子内部存在一个很小的、带正电的原子核，为核式结构模型的建立提供了决定性证据。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "核心在于解释实验现象、结果与结论，并理解其如何为原子核式结构模型提供证据，属于解释和说明的范畴。"
       }
     },
     {
       "id": "bohr_atomic_model",
       "label": "玻尔原子模型",
       "properties": {
-        "description": "玻尔在卢瑟福模型基础上，引入量子化概念，提出的原子模型。该模型成功解释了氢原子光谱的线状谱特征，核心思想是定态和跃迁。"
+        "description": "玻尔在卢瑟福模型基础上，引入量子化概念，提出的原子模型。该模型成功解释了氢原子光谱的线状谱特征，核心思想是定态和跃迁。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "学习该模型的核心在于理解其量子化概念（定态、跃迁），并能解释它如何说明氢原子光谱的线状特征。"
       }
     },
     {
       "id": "atomic_spectra",
       "label": "原子光谱",
       "properties": {
-        "description": "原子发光或吸收光子后形成的光谱。由于原子能级是量子化的，其光谱是线状谱，每种元素的原子都有其特征的光谱。"
+        "description": "原子发光或吸收光子后形成的光谱。由于原子能级是量子化的，其光谱是线状谱，每种元素的原子都有其特征的光谱。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点要求解释现象（线状谱）的成因（能级量子化）及其特征，超越了单纯的记忆，属于对概念含义的理解。"
       }
     },
     {
       "id": "hydrogen_atom_spectrum",
       "label": "氢原子光谱",
       "properties": {
-        "description": "氢原子发出的不连续的线状光谱，其规律性首先被巴耳末发现，后由玻尔模型成功解释。"
+        "description": "氢原子发出的不连续的线状光谱，其规律性首先被巴耳末发现，后由玻尔模型成功解释。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "学习者需解释光谱的线状特征，并理解其与玻尔模型的联系，这超越了单纯的事实记忆，属于理解层面。"
       }
     },
     {
       "id": "energy_levels",
       "label": "能级",
       "properties": {
-        "description": "根据量子理论，原子的能量是量子化的，只能取一系列不连续的特定值，这些值对应的状态称为定态，其能量值就是能级。"
+        "description": "根据量子理论，原子的能量是量子化的，只能取一系列不连续的特定值，这些值对应的状态称为定态，其能量值就是能级。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点要求学习者解释能量量子化、定态等抽象概念，并说明能级的含义，这超越了单纯回忆定义，属于理解层级。"
       }
     },
     {
       "id": "energy_level_transition",
       "label": "能级跃迁",
       "properties": {
-        "description": "原子从一个能级（定态）向另一个能级（定态）的跳跃过程。从高能级向低能级跃迁时会辐射出光子；吸收光子则可以从低能级向高能级跃迁。"
+        "description": "原子从一个能级（定态）向另一个能级（定态）的跳跃过程。从高能级向低能级跃迁时会辐射出光子；吸收光子则可以从低能级向高能级跃迁。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "核心学习目标是解释能级跃迁的过程和原理，而不只是回忆定义。这需要对概念进行阐释和说明，符合“理解”层级。"
       }
     },
     {
       "id": "atomic_nucleus",
       "label": "原子核",
       "properties": {
-        "description": "位于原子中心的、由质子和中子（统称核子）构成的致密部分。它集中了原子几乎全部的质量，并带有正电荷。"
+        "description": "位于原子中心的、由质子和中子（统称核子）构成的致密部分。它集中了原子几乎全部的质量，并带有正电荷。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点是对“原子核”这一基本概念的定义，学习目标是识别和回忆其构成、位置与属性等事实性知识。"
       }
     },
     {
       "id": "nucleon",
       "label": "核子",
       "properties": {
-        "description": "质子和中子的统称。"
+        "description": "质子和中子的统称。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点是对一个基本概念的定义，核心要求是记住“核子”是质子和中子的统称，属于对事实性知识的回忆。"
       }
     },
     {
       "id": "proton",
       "label": "质子",
       "properties": {
-        "description": "构成原子核的基本粒子之一，带一个单位正电荷。"
+        "description": "构成原子核的基本粒子之一，带一个单位正电荷。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点是对基本事实和概念的定义，核心要求是识别与回忆质子的属性。"
       }
     },
     {
       "id": "neutron",
       "label": "中子",
       "properties": {
-        "description": "构成原子核的基本粒子之一，不带电。"
+        "description": "构成原子核的基本粒子之一，不带电。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点是对基本事实的定义，学习目标是识别和回忆其概念与属性，属于记忆层级。"
       }
     },
     {
       "id": "mass_number",
       "label": "质量数",
       "properties": {
-        "description": "原子核中质子数和中子数的总和。"
+        "description": "原子核中质子数和中子数的总和。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点是对“质量数”的定义，学习目标是记住并回忆这个基本概念，属于对事实性知识的记忆。"
       }
     },
     {
       "id": "charge_number",
       "label": "电荷数",
       "properties": {
-        "description": "原子核中的质子数，也等于原子序数。"
+        "description": "原子核中的质子数，也等于原子序数。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点是对“电荷数”这一概念的定义，学习的核心是记住和回忆这一事实性知识。"
       }
     },
     {
       "id": "nuclear_reaction",
       "label": "核反应",
       "properties": {
-        "description": "原子核在与其他粒子（如中子、质子等）的相互作用下，或自发地转变成新原子核的过程。核反应前后遵循质量数守恒和电荷守恒。"
+        "description": "原子核在与其他粒子（如中子、质子等）的相互作用下，或自发地转变成新原子核的过程。核反应前后遵循质量数守恒和电荷守恒。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点的核心学习目标是理解核反应的定义及其遵循的守恒定律，要求学习者能够解释和说明这一过程，而不仅仅是记忆事实。"
       }
     },
     {
       "id": "nuclear_reaction_equation",
       "label": "核反应方程",
       "properties": {
-        "description": "用来描述核反应过程的方程式。方程两边必须满足质量数守恒和电荷数守恒。"
+        "description": "用来描述核反应过程的方程式。方程两边必须满足质量数守恒和电荷数守恒。",
+        "bloom_level": "Apply",
+        "bloom_reasoning": "核心要求是应用质量数守恒和电荷数守恒这两条规则，去解决一个具体核反应方程的书写或配平问题。"
       }
     },
     {
       "id": "conservation_of_mass_number",
       "label": "质量数守恒",
       "properties": {
-        "description": "在任何核反应中，反应前所有粒子的质量数之和等于反应后所有粒子的质量数之和。"
+        "description": "在任何核反应中，反应前所有粒子的质量数之和等于反应后所有粒子的质量数之和。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点是对一个基本定律的定义性陈述，核心学习目标是要求学生能够记住并回忆其内容。"
       }
     },
     {
       "id": "conservation_of_charge",
       "label": "电荷守恒",
       "properties": {
-        "description": "在任何核反应中，反应前所有粒子的电荷数之和等于反应后所有粒子的电荷数之和。"
+        "description": "在任何核反应中，反应前所有粒子的电荷数之和等于反应后所有粒子的电荷数之和。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点是对一个基本物理定律的定义性描述，学习的起点是准确回忆这个事实，属于对事实性知识的记忆。"
       }
     },
     {
       "id": "radioactivity",
       "label": "放射性",
       "properties": {
-        "description": "某些不稳定原子核自发地放出射线（如α、β、γ射线）而转变成另一种原子核的性质。"
+        "description": "某些不稳定原子核自发地放出射线（如α、β、γ射线）而转变成另一种原子核的性质。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点是对“放射性”这一名词的定义。核心学习目标是让学生能够回忆和识别这个基本概念，属于记忆层级。"
       }
     },
     {
       "id": "radioactive_decay",
       "label": "放射性衰变",
       "properties": {
-        "description": "放射性元素自发地放出射线，变成新元素的现象。主要有α衰变、β衰变和γ衰变三种类型。"
+        "description": "放射性元素自发地放出射线，变成新元素的现象。主要有α衰变、β衰变和γ衰变三种类型。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "要求学习者解释现象的定义和分类，属于对事实性知识的理解层面，超越了单纯的记忆。"
       }
     },
     {
       "id": "alpha_decay",
       "label": "α衰变",
       "properties": {
-        "description": "原子核自发放出一个α粒子（氦核）的衰变过程。衰变后，新核的质量数减少4，电荷数减少2。"
+        "description": "原子核自发放出一个α粒子（氦核）的衰变过程。衰变后，新核的质量数减少4，电荷数减少2。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点要求学习者解释衰变过程及其结果（质量数、电荷数的变化），这超越了单纯的记忆，达到了理解层面。"
       }
     },
     {
       "id": "beta_decay",
       "label": "β衰变",
       "properties": {
-        "description": "原子核中的一个中子转变为一个质子，同时放出一个电子（β粒子）的衰变过程。衰变后，新核的质量数不变，电荷数增加1。"
+        "description": "原子核中的一个中子转变为一个质子，同时放出一个电子（β粒子）的衰变过程。衰变后，新核的质量数不变，电荷数增加1。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点要求学习者解释原子核的转变过程和结果（质量数、电荷数变化），而不只是回忆事实。"
       }
     },
     {
       "id": "gamma_decay",
       "label": "γ衰变",
       "properties": {
-        "description": "处于激发态的原子核向较低能级跃迁时，以γ光子的形式放出能量的过程。此过程不改变原子核的质量数和电荷数。"
+        "description": "处于激发态的原子核向较低能级跃迁时，以γ光子的形式放出能量的过程。此过程不改变原子核的质量数和电荷数。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点要求学习者解释原子核能级跃迁的物理过程，并说明其特征，超越了对定义的简单回忆。"
       }
     },
     {
       "id": "half_life",
       "label": "半衰期",
       "properties": {
-        "description": "放射性元素的原子核有半数发生衰变所需要的时间。它是一个统计概念，由原子核内部因素决定，与外界物理化学条件无关。"
+        "description": "放射性元素的原子核有半数发生衰变所需要的时间。它是一个统计概念，由原子核内部因素决定，与外界物理化学条件无关。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点的核心是记忆“半衰期”的定义，属于对事实性知识的识别与回忆。"
       }
     },
     {
       "id": "radioisotopes",
       "label": "放射性同位素",
       "properties": {
-        "description": "具有放射性的同位素。因其能发出特征射线，在工业、农业、医疗和科研等领域有广泛应用，如用作示踪原子、进行放射治疗等。"
+        "description": "具有放射性的同位素。因其能发出特征射线，在工业、农业、医疗和科研等领域有广泛应用，如用作示踪原子、进行放射治疗等。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点的核心学习目标是要求学生能回忆起“放射性同位素”的定义和用途，属于对事实性知识的记忆。"
       }
     },
     {
       "id": "radiation_protection",
       "label": "辐射防护",
       "properties": {
-        "description": "为保护人类免受或少受电离辐射危害而采取的各种措施，包括时间防护、距离防护和屏蔽防护。"
+        "description": "为保护人类免受或少受电离辐射危害而采取的各种措施，包括时间防护、距离防护和屏蔽防护。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点的核心学习目标是回忆辐射防护的定义，并列举出其包含的三种基本措施，属于对事实性知识的记忆。"
       }
     },
     {
       "id": "nuclear_energy",
       "label": "核能",
       "properties": {
-        "description": "通过核反应（如重核裂变或轻核聚变）释放出的巨大能量。其能量释放遵循质能方程。"
+        "description": "通过核反应（如重核裂变或轻核聚变）释放出的巨大能量。其能量释放遵循质能方程。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点是对“核能”这一概念的定义性描述，核心学习目标是记住并回忆其定义、来源和基本原理。"
       }
     },
     {
       "id": "nuclear_fission",
       "label": "核裂变",
       "properties": {
-        "description": "重原子核（如铀-235）在中子轰击下，分裂成两个或多个中等质量的原子核，并释放出巨大能量和更多中子的过程。"
+        "description": "重原子核（如铀-235）在中子轰击下，分裂成两个或多个中等质量的原子核，并释放出巨大能量和更多中子的过程。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点是对“核裂变”这一科学概念的定义，核心学习目标是回忆其过程和事实，属于对事实性知识的记忆。"
       }
     },
     {
       "id": "chain_reaction",
       "label": "链式反应",
       "properties": {
-        "description": "由核裂变产生的中子，再去轰击其他重核，从而引起一系列接连不断的裂变反应。这是实现核能持续释放的关键。"
+        "description": "由核裂变产生的中子，再去轰击其他重核，从而引起一系列接连不断的裂变反应。这是实现核能持续释放的关键。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点要求学习者解释一个过程和因果关系（中子引发裂变，裂变产生更多中子），这超越了单纯记忆定义，属于理解层面。"
       }
     },
     {
       "id": "nuclear_power_plant",
       "label": "核电站",
       "properties": {
-        "description": "利用可控的核裂变链式反应来产生电能的设施。核心设备是核反应堆。"
+        "description": "利用可控的核裂变链式反应来产生电能的设施。核心设备是核反应堆。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点是对一个具体设施的定义，核心学习目标是识别和回忆其概念与核心设备，属于对事实性知识的记忆。"
       }
     },
     {
       "id": "nuclear_fusion",
       "label": "核聚变",
       "properties": {
-        "description": "两个轻原子核（如氘和氚）结合成一个较重的原子核，并释放出巨大能量的过程。太阳的能量就来源于核聚变。"
+        "description": "两个轻原子核（如氘和氚）结合成一个较重的原子核，并释放出巨大能量的过程。太阳的能量就来源于核聚变。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点是对“核聚变”这一科学术语的定义性描述，学习目标是让学生能够识别和回忆其基本概念和事实。"
       }
     },
     {
       "id": "thermonuclear_reaction",
       "label": "热核反应",
       "properties": {
-        "description": "在极高温度下发生的核聚变反应。因为需要克服原子核间的库仑斥力，所以反应条件非常苛刻。"
+        "description": "在极高温度下发生的核聚变反应。因为需要克服原子核间的库仑斥力，所以反应条件非常苛刻。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "核心在于理解反应发生的条件（高温）及其原因（克服库仑斥力），这属于解释和说明的范畴，超越了单纯记忆。"
       }
     },
     {
       "id": "sun_energy_source",
       "label": "太阳的能量来源",
       "properties": {
-        "description": "太阳内部持续进行着氢核聚变成氦核的热核反应，从而释放出巨大的能量。"
+        "description": "太阳内部持续进行着氢核聚变成氦核的热核反应，从而释放出巨大的能量。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点的核心学习目标是回忆“太阳能量来源于核聚变”这一事实性知识，属于对信息的直接提取和再认。"
       }
     },
     {
       "id": "nuclear_waste",
       "label": "核废料",
       "properties": {
-        "description": "核电站等核设施使用后产生的具有放射性的废弃物。如何安全、永久地处理核废料是核能发展面临的重大挑战。"
+        "description": "核电站等核设施使用后产生的具有放射性的废弃物。如何安全、永久地处理核废料是核能发展面临的重大挑战。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点是对“核废料”这一术语的定义，核心学习目标是让学习者能够回忆和识别其基本概念。"
       }
     },
     {
       "id": "nuclear_safety",
       "label": "核安全",
       "properties": {
-        "description": "为确保核设施的安全运行，防止放射性物质泄漏，以及保障公众和环境免受核辐射危害而采取的一系列技术和管理措施。"
+        "description": "为确保核设施的安全运行，防止放射性物质泄漏，以及保障公众和环境免受核辐射危害而采取的一系列技术和管理措施。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点是对“核安全”这一术语的定义性描述，学习者首要任务是记住其基本概念和内涵。"
       }
     },
     {
       "id": "particle_physics",
       "label": "粒子物理学",
       "properties": {
-        "description": "研究物质最基本的组成部分（基本粒子）及其相互作用的物理学分支。标准模型是当前粒子物理学的集大成理论。"
+        "description": "研究物质最基本的组成部分（基本粒子）及其相互作用的物理学分支。标准模型是当前粒子物理学的集大成理论。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点是对“粒子物理学”这一名词的定义性描述，属于对事实性知识的回忆和识别。"
       }
     },
     {
@@ -821,105 +1029,135 @@
       "properties": {
         "description": "现代物理学的基本概念之一，指所有微观粒子（如光子、电子）都同时具有波和粒子的双重属性。",
         "subject": "Physics",
-        "theme": "波粒二象性"
+        "theme": "波粒二象性",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点为基本概念，核心学习目标是理解其内涵，并能够解释和说明，超越了单纯的记忆。"
       }
     },
     {
       "id": "photoelectric_effect",
       "label": "光电效应",
       "properties": {
-        "description": "在光的照射下，物体发射出电子的现象。这一效应揭示了光的粒子性，无法用经典波动理论解释。"
+        "description": "在光的照射下，物体发射出电子的现象。这一效应揭示了光的粒子性，无法用经典波动理论解释。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点的核心学习目标是记住光电效应的定义和其揭示的基本物理事实（光的粒子性），这属于对事实性知识的回忆和识别。"
       }
     },
     {
       "id": "einstein_photoelectric_equation",
       "label": "爱因斯坦光电效应方程",
       "properties": {
-        "description": "爱因斯坦为解释光电效应提出的方程：E_k = hν - W。它表明了光子的能量、逸出功和出射电子最大初动能之间的关系，是能量守恒在微观领域的体现。"
+        "description": "爱因斯坦为解释光电效应提出的方程：E_k = hν - W。它表明了光子的能量、逸出功和出射电子最大初动能之间的关系，是能量守恒在微观领域的体现。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "核心是解释方程中各物理量的关系及其物理意义，超越了单纯的记忆公式。"
       }
     },
     {
       "id": "photon_concept",
       "label": "光子 (光量子)",
       "properties": {
-        "description": "普朗克提出的能量量子化假说中的能量子，爱因斯坦将其发展为光子的概念。光子是光的粒子形式，其能量E与频率ν成正比（E=hν）。"
+        "description": "普朗克提出的能量量子化假说中的能量子，爱因斯坦将其发展为光子的概念。光子是光的粒子形式，其能量E与频率ν成正比（E=hν）。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "核心学习目标是解释光子的概念、粒子属性以及其能量与频率的关系（E=hν），这要求对信息的含义进行解释和说明，超越了简单的记忆。"
       }
     },
     {
       "id": "work_function",
       "label": "逸出功",
       "properties": {
-        "description": "使电子脱离金属表面所需要做的最小功。它是材料本身的一种属性，取决于材料的种类。"
+        "description": "使电子脱离金属表面所需要做的最小功。它是材料本身的一种属性，取决于材料的种类。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点的核心是记忆“逸出功”的定义，即一个具体的事实性概念，属于对知识的回忆和识别。"
       }
     },
     {
       "id": "light_particle_nature",
       "label": "光的粒子性",
       "properties": {
-        "description": "指光在某些情况下表现出粒子的行为特征，光电效应是其决定性证据。光是由一份一份不连续的光子组成的。"
+        "description": "指光在某些情况下表现出粒子的行为特征，光电效应是其决定性证据。光是由一份一份不连续的光子组成的。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点的核心是记忆“光的粒子性”这一概念的定义、构成（光子）及其决定性证据，属于对事实性知识的记忆。"
       }
     },
     {
       "id": "matter_wave",
       "label": "物质波 (德布罗意波)",
       "properties": {
-        "description": "德布罗意提出的假说，认为一切实物粒子，如电子、质子等，都具有波动性。其波长λ与动量p的关系为 λ = h/p。"
+        "description": "德布罗意提出的假说，认为一切实物粒子，如电子、质子等，都具有波动性。其波长λ与动量p的关系为 λ = h/p。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点要求学习者记住物质波的定义、提出者以及波长与动量的关系式（λ = h/p），核心是回忆事实性知识，属于记忆层级。"
       }
     },
     {
       "id": "de_broglie_hypothesis",
       "label": "德布罗意假说",
       "properties": {
-        "description": "认为'不仅光子具有波粒二象性，一切微观粒子都具有波粒二象性'的理论假设，将波的属性推广到了所有物质。"
+        "description": "认为'不仅光子具有波粒二象性，一切微观粒子都具有波粒二象性'的理论假设，将波的属性推广到了所有物质。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "学习该知识点的核心是理解其科学内涵，即能够解释“一切微观粒子都具有波粒二象性”这一概念，而不仅仅是记忆其定义。"
       }
     },
     {
       "id": "electron_diffraction_experiment",
       "label": "电子衍射实验",
       "properties": {
-        "description": "如戴维孙-革末实验，观察到电子束通过晶体时产生衍射图样，其实验结果有力地验证了德布罗意物质波假说的正确性。"
+        "description": "如戴维孙-革末实验，观察到电子束通过晶体时产生衍射图样，其实验结果有力地验证了德布罗意物质波假说的正确性。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "核心学习目标是解释电子衍射实验的现象、结论及其意义，即说明该实验如何验证了德布罗意假说，这属于对事实和概念之间关系的理解。"
       }
     },
     {
       "id": "particle_wave_nature",
       "label": "粒子的波动性",
       "properties": {
-        "description": "指微观粒子在某些情况下表现出波的特性，如干涉和衍射。电子衍射实验是其决定性证据。"
+        "description": "指微观粒子在某些情况下表现出波的特性，如干涉和衍射。电子衍射实验是其决定性证据。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点的核心是解释“粒子的波动性”这一抽象概念的含义，并用具体现象（干涉、衍射）来说明，超越了单纯的事实记忆。"
       }
     },
     {
       "id": "quantization_concept",
       "label": "量子化",
       "properties": {
-        "description": "指物理量只能取某些分立值，而不是任意连续值的概念。例如原子能级的量子化、光子能量的量子化。"
+        "description": "指物理量只能取某些分立值，而不是任意连续值的概念。例如原子能级的量子化、光子能量的量子化。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点要求学习者解释“量子化”这一抽象概念的含义，并能通过例子进行说明，符合理解层级的要求。"
       }
     },
     {
       "id": "planck_hypothesis",
       "label": "普朗克量子假说",
       "properties": {
-        "description": "为解释黑体辐射现象，普朗克首次提出振子的能量是不连续的，只能是某一最小能量单位（能量子）的整数倍。这是量子理论的开端。"
+        "description": "为解释黑体辐射现象，普朗克首次提出振子的能量是不连续的，只能是某一最小能量单位（能量子）的整数倍。这是量子理论的开端。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点要求学习者解释假说的内涵（能量不连续）及其提出的背景（为解决黑体辐射问题），这超越了单纯记忆，属于理解层面。"
       }
     },
     {
       "id": "heisenberg_uncertainty_principle",
       "label": "不确定性原理",
       "properties": {
-        "description": "由海森伯提出的量子力学基本原理，指出一个微观粒子的位置和动量不能同时被无限精确地确定。这种不确定性是微观粒子波动性的内在属性，而非测量技术限制。"
+        "description": "由海森伯提出的量子力学基本原理，指出一个微观粒子的位置和动量不能同时被无限精确地确定。这种不确定性是微观粒子波动性的内在属性，而非测量技术限制。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "学习目标是解释该原理的含义，即不确定性是微观粒子的内在属性，而非技术限制，这属于理解层面。"
       }
     },
     {
       "id": "quantum_technology",
       "label": "量子技术",
       "properties": {
-        "description": "基于量子力学原理（如量子叠加、量子纠缠）发展起来的新兴技术，如量子计算、量子通信和量子传感等。"
+        "description": "基于量子力学原理（如量子叠加、量子纠缠）发展起来的新兴技术，如量子计算、量子通信和量子传感等。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点要求学习者解释量子技术的定义、基本原理和主要分类，是对概念的理解，超越了简单的事实记忆。"
       }
     },
     {
       "id": "uncertainty_principle",
       "label": "不确定性原理",
       "properties": {
-        "description": "不确定性原理揭示了微观粒子位置和动量不可同时精确测量的内在限制，是量子力学区别于经典物理的核心特征之一。"
+        "description": "不确定性原理揭示了微观粒子位置和动量不可同时精确测量的内在限制，是量子力学区别于经典物理的核心特征之一。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点要求学习者解释原理的内涵，并说明其作为量子力学核心特征的意义，这属于对概念含义的理解，符合“理解”层级。"
       }
     },
     {
@@ -928,98 +1166,126 @@
       "properties": {
         "description": "从微观视角出发，研究物质由大量分子组成的观点，并探讨固体、液体、气体的宏观性质与其微观结构和分子运动之间的关系。",
         "subject": "Physics",
-        "theme": "固体、液体和气体"
+        "theme": "固体、液体和气体",
+        "bloom_level": "Analyze",
+        "bloom_reasoning": "核心目标是探究宏观性质与微观结构间的关系，需要将现象分解为组成部分并理解其内在联系，这符合分析（Analyze）层级的要求。"
       }
     },
     {
       "id": "molecular_kinetic_theory",
       "label": "分子动理论",
       "properties": {
-        "description": "描述物质微观结构和热现象的基本理论。其基本观点是：物质由大量分子组成，分子在永不停息地做无规则运动，分子间存在相互作用的引力和斥力。"
+        "description": "描述物质微观结构和热现象的基本理论。其基本观点是：物质由大量分子组成，分子在永不停息地做无规则运动，分子间存在相互作用的引力和斥力。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点要求学习者理解其三个基本观点，并能用它来描述和解释微观结构与热现象。这超越了单纯的记忆，达到了理解材料含义的层级。"
       }
     },
     {
       "id": "molecular_size_estimation",
       "label": "分子大小估测",
       "properties": {
-        "description": "通过实验方法估算分子直径的数量级，例如油膜法实验。这是感受微观世界尺度的一个重要实践。"
+        "description": "通过实验方法估算分子直径的数量级，例如油膜法实验。这是感受微观世界尺度的一个重要实践。",
+        "bloom_level": "Apply",
+        "bloom_reasoning": "该知识点要求学生在具体实验情境中，应用“油膜法”的原理和公式进行计算，以求解分子直径这一具体物理量。"
       }
     },
     {
       "id": "oil_film_experiment",
       "label": "油膜法实验",
       "properties": {
-        "description": "一种经典的估测分子大小的实验方法。通过将油酸在水面上铺成单分子薄膜，测量薄膜面积和油酸体积，从而估算出油酸分子的直径。"
+        "description": "一种经典的估测分子大小的实验方法。通过将油酸在水面上铺成单分子薄膜，测量薄膜面积和油酸体积，从而估算出油酸分子的直径。",
+        "bloom_level": "Apply",
+        "bloom_reasoning": "该实验的核心是应用单分子层模型和公式（d=V/S），通过测量和计算来求解分子直径这一具体问题。"
       }
     },
     {
       "id": "diffusion",
       "label": "扩散现象",
       "properties": {
-        "description": "不同物质相互接触时，彼此进入对方的现象。这是分子永不停息地做无规则运动的直接证据。"
+        "description": "不同物质相互接触时，彼此进入对方的现象。这是分子永不停息地做无规则运动的直接证据。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "学习者不仅要记住定义，更要理解扩散现象作为分子运动证据的内在含义，需要解释其背后的原理。"
       }
     },
     {
       "id": "brownian_motion",
       "label": "布朗运动",
       "properties": {
-        "description": "悬浮在液体或气体中的微小颗粒所做的永不停息的无规则运动。它不是分子的运动本身，而是液体或气体分子无规则运动的间接反映。"
+        "description": "悬浮在液体或气体中的微小颗粒所做的永不停息的无规则运动。它不是分子的运动本身，而是液体或气体分子无规则运动的间接反映。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点不仅要求记忆定义，更要求解释其本质（分子运动的反映），属于对概念含义的理解。"
       }
     },
     {
       "id": "intermolecular_forces",
       "label": "分子间作用力",
       "properties": {
-        "description": "分子之间同时存在的相互吸引和相互排斥的力。这些力随分子间距离的变化而变化，是决定物质状态和物理性质的重要因素。"
+        "description": "分子之间同时存在的相互吸引和相互排斥的力。这些力随分子间距离的变化而变化，是决定物质状态和物理性质的重要因素。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点要求解释分子间作用力的概念和意义，属于对信息含义的理解和说明，而非单纯的记忆。"
       }
     },
     {
       "id": "crystal_and_amorphous",
       "label": "晶体与非晶体",
       "properties": {
-        "description": "固体根据其内部微粒（原子、离子或分子）排列方式可分为晶体和非晶体。晶体具有规则的几何形状、固定的熔点和各向异性；非晶体则没有。"
+        "description": "固体根据其内部微粒（原子、离子或分子）排列方式可分为晶体和非晶体。晶体具有规则的几何形状、固定的熔点和各向异性；非晶体则没有。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "核心是解释晶体与非晶体的概念、描述其特征并进行分类，属于对信息含义的理解。"
       }
     },
     {
       "id": "liquid_crystal",
       "label": "液晶",
       "properties": {
-        "description": "一种介于固体晶体和液体之间的物质状态，既具有液体的流动性，又具有晶体的光学各向异性。在显示技术中有广泛应用。"
+        "description": "一种介于固体晶体和液体之间的物质状态，既具有液体的流动性，又具有晶体的光学各向异性。在显示技术中有广泛应用。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点的核心是要求学习者记住“液晶”的定义、基本特性和物质状态，属于对事实性知识的回忆。"
       }
     },
     {
       "id": "surface_tension",
       "label": "液体表面张力",
       "properties": {
-        "description": "使液体表面具有收缩趋势的力。它源于液体表面层分子间的相互作用，是许多表面现象（如露珠呈球形）的原因。"
+        "description": "使液体表面具有收缩趋势的力。它源于液体表面层分子间的相互作用，是许多表面现象（如露珠呈球形）的原因。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点不仅要求记住定义，更要求解释其成因（分子间作用）和结果（露珠呈球形），这符合“理解”层级的要求。"
       }
     },
     {
       "id": "capillarity",
       "label": "毛细现象",
       "properties": {
-        "description": "液体在细管中上升或下降的现象，与液体的表面张力和浸润现象有关。"
+        "description": "液体在细管中上升或下降的现象，与液体的表面张力和浸润现象有关。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点的核心是解释现象（是什么）及其与表面张力、浸润现象的关系（为什么），符合“理解”层级的要求。"
       }
     },
     {
       "id": "gas_experimental_laws",
       "label": "气体实验定律",
       "properties": {
-        "description": "描述理想气体在特定条件下，其状态参量（压强、体积、温度）之间关系的经验定律，包括玻意耳定律、查理定律和盖-吕萨克定律。"
+        "description": "描述理想气体在特定条件下，其状态参量（压强、体积、温度）之间关系的经验定律，包括玻意耳定律、查理定律和盖-吕萨克定律。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "核心要求是解释和说明定律内容，即各状态参量间的关系，这超越了单纯的公式记忆，符合“理解”层级的定义。"
       }
     },
     {
       "id": "ideal_gas_model",
       "label": "理想气体模型",
       "properties": {
-        "description": "一个理想化的物理模型，认为气体分子是无体积的点，分子间除碰撞外无相互作用力。在宏观上，理想气体严格遵守气体实验定律。"
+        "description": "一个理想化的物理模型，认为气体分子是无体积的点，分子间除碰撞外无相互作用力。在宏观上，理想气体严格遵守气体实验定律。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点的核心是记忆理想气体模型的定义、特点和假设，属于对事实性知识的回忆。"
       }
     },
     {
       "id": "ideal_gas_law",
       "label": "理想气体状态方程",
       "properties": {
-        "description": "描述理想气体状态参量（压强P, 体积V, 摩尔数n, 温度T）之间关系的方程：pV=nRT。它是所有气体实验定律的综合和推广。"
+        "description": "描述理想气体状态参量（压强P, 体积V, 摩尔数n, 温度T）之间关系的方程：pV=nRT。它是所有气体实验定律的综合和推广。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "核心是理解方程所描述的物理量（P, V, n, T）间的关系，这超越了单纯的公式记忆。"
       }
     },
     {
@@ -1028,70 +1294,90 @@
       "properties": {
         "description": "从能量转化和过程方向性的角度，研究宏观热现象的普适规律，主要包括热力学第一定律和第二定律。",
         "subject": "Physics",
-        "theme": "热力学定律"
+        "theme": "热力学定律",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "核心目标是解释和说明定律的内涵，理解能量转化和过程方向性等概念，超越了单纯的记忆。"
       }
     },
     {
       "id": "first_law_of_thermodynamics",
       "label": "热力学第一定律",
       "properties": {
-        "description": "能量守恒定律在热现象中的具体表述，其数学表达式为 ΔU = Q + W，表明了内能变化与热量、做功之间的定量关系。"
+        "description": "能量守恒定律在热现象中的具体表述，其数学表达式为 ΔU = Q + W，表明了内能变化与热量、做功之间的定量关系。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点的核心是理解其作为能量守恒定律的具体表述，并解释内能、热量、功三者间的定量关系。"
       }
     },
     {
       "id": "internal_energy",
       "label": "内能",
       "properties": {
-        "description": "物体内部所有分子做无规则运动的动能和分子势能的总和。内能是与温度和体积有关的状态量。"
+        "description": "物体内部所有分子做无规则运动的动能和分子势能的总和。内能是与温度和体积有关的状态量。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点是对“内能”的定义性描述，学习目标是记住其概念，属于对事实性知识的回忆。"
       }
     },
     {
       "id": "work_and_heat_in_thermodynamics",
       "label": "做功与热传递",
       "properties": {
-        "description": "改变物体内能的两种方式。做功是宏观机械能与内能的转化，热传递是内能的转移。它们都是过程量。"
+        "description": "改变物体内能的两种方式。做功是宏观机械能与内能的转化，热传递是内能的转移。它们都是过程量。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点要求学习者解释和区分“转化”与“转移”这两个概念，并理解“过程量”的含义，这超越了单纯的记忆，达到了理解层级。"
       }
     },
     {
       "id": "second_law_of_thermodynamics",
       "label": "热力学第二定律",
       "properties": {
-        "description": "揭示了宏观热现象具有方向性的定律。它有多种表述，如热量不能自发地从低温物体传到高温物体。"
+        "description": "揭示了宏观热现象具有方向性的定律。它有多种表述，如热量不能自发地从低温物体传到高温物体。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "核心学习目标是解释定律的内涵（如方向性），并说明其表述的含义，超越了单纯的记忆层面。"
       }
     },
     {
       "id": "directionality_of_thermal_processes",
       "label": "宏观过程的方向性",
       "properties": {
-        "description": "许多宏观的物理和化学过程都具有单向性，例如热量总是自发地从高温物体传向低温物体，气体总是自发地向真空扩散。"
+        "description": "许多宏观的物理和化学过程都具有单向性，例如热量总是自发地从高温物体传向低温物体，气体总是自发地向真空扩散。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点要求学习者回忆“宏观过程具有方向性”这一事实，并能识别其典型例子，属于对事实性知识的记忆。"
       }
     },
     {
       "id": "entropy",
       "label": "熵",
       "properties": {
-        "description": "宏观上，熵是系统热力学状态的一个函数；微观上，熵是系统内分子无序程度的量度。根据热力学第二定律，孤立系统的熵总是增加或保持不变。"
+        "description": "宏观上，熵是系统热力学状态的一个函数；微观上，熵是系统内分子无序程度的量度。根据热力学第二定律，孤立系统的熵总是增加或保持不变。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点要求解释熵的宏观与微观定义，并说明其与热力学第二定律的关系，重在阐释概念内涵，超越了单纯记忆，属于理解层级。"
       }
     },
     {
       "id": "perpetual_motion_machine",
       "label": "永动机",
       "properties": {
-        "description": "一种想象中的、可以永远运动并对外做功的机器。根据热力学定律，永动机是不可能实现的。"
+        "description": "一种想象中的、可以永远运动并对外做功的机器。根据热力学定律，永动机是不可能实现的。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "核心学习目标是理解永动机的定义，并能解释其为何因违背热力学定律而无法实现。"
       }
     },
     {
       "id": "first_kind_perpetual_motion_machine",
       "label": "第一类永动机",
       "properties": {
-        "description": "一种不需要外界能量输入，却能不断对外做功的机器。它违背了热力学第一定律（能量守恒定律）。"
+        "description": "一种不需要外界能量输入，却能不断对外做功的机器。它违背了热力学第一定律（能量守恒定律）。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "学习者需要解释第一类永动机的概念，并说明其为何违背能量守恒定律。这超越了简单记忆，属于对概念含义和原理的理解。"
       }
     },
     {
       "id": "second_kind_perpetual_motion_machine",
       "label": "第二类永动机",
       "properties": {
-        "description": "一种可以将从单一热源吸收的热量完全转化为功，而不引起其他变化的机器。它违背了热力学第二定律。"
+        "description": "一种可以将从单一热源吸收的热量完全转化为功，而不引起其他变化的机器。它违背了热力学第二定律。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "学习该知识点不仅要记住定义，更要理解其工作原理，并解释其为何违背热力学第二定律，属于理解层级。"
       }
     },
     {
@@ -1100,42 +1386,54 @@
       "properties": {
         "description": "探讨声学、电磁学、核物理等基本原理在现代医疗诊断与治疗设备中的应用。",
         "subject": "Physics",
-        "theme": "物理学与医疗技术"
+        "theme": "物理学与医疗技术",
+        "bloom_level": "Apply",
+        "bloom_reasoning": "该知识点的核心是探讨物理原理在医疗设备中的“应用”，要求将抽象原理用于具体的新情境中。"
       }
     },
     {
       "id": "ultrasound_imaging",
       "label": "超声成像 (B超)",
       "properties": {
-        "description": "利用超声波在人体组织中传播、反射和衰减的特性，将组织断面的信息以图像形式显示出来的诊断技术。"
+        "description": "利用超声波在人体组织中传播、反射和衰减的特性，将组织断面的信息以图像形式显示出来的诊断技术。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点描述了技术的定义和基本原理，学习目标是理解其含义并能进行解释说明，超越了单纯的记忆。"
       }
     },
     {
       "id": "color_doppler_ultrasound",
       "label": "彩色多普勒超声 (彩超)",
       "properties": {
-        "description": "在B超图像基础上，利用多普勒效应原理，对血流等运动信息进行探测并以彩色编码显示的技术，常用于心血管疾病诊断。"
+        "description": "在B超图像基础上，利用多普勒效应原理，对血流等运动信息进行探测并以彩色编码显示的技术，常用于心血管疾病诊断。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "学习者需要解释该技术的原理（多普勒效应）、功能和用途，这超越了对名词的单纯记忆。"
       }
     },
     {
       "id": "x_ray_computed_tomography",
       "label": "X射线计算机断层扫描 (CT)",
       "properties": {
-        "description": "结合X射线和计算机技术的一种成像技术。通过多角度的X射线投影，重建出人体横断面的精细图像，能够清晰显示不同组织的密度差异。"
+        "description": "结合X射线和计算机技术的一种成像技术。通过多角度的X射线投影，重建出人体横断面的精细图像，能够清晰显示不同组织的密度差异。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点要求学习者解释CT的原理和过程，描述其成像特点，这超越了单纯的记忆，达到了理解层级。"
       }
     },
     {
       "id": "radiotherapy",
       "label": "放射治疗 (放疗)",
       "properties": {
-        "description": "利用放射性同位素发出的射线（如γ射线）或加速器产生的高能射线，来杀伤和抑制癌细胞的一种治疗方法。"
+        "description": "利用放射性同位素发出的射线（如γ射线）或加速器产生的高能射线，来杀伤和抑制癌细胞的一种治疗方法。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点是对“放射治疗”这一名词的定义，核心学习目标是记忆和回忆其概念，属于对事实性知识的识别与再认。"
       }
     },
     {
       "id": "medical_radiation_protection",
       "label": "医疗辐射防护",
       "properties": {
-        "description": "在利用电离辐射进行诊断和治疗时，为保护患者、医务人员及公众健康而采取的必要防护措施。"
+        "description": "在利用电离辐射进行诊断和治疗时，为保护患者、医务人员及公众健康而采取的必要防护措施。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点要求学习者解释其定义、目的和保护对象，这超越了单纯的记忆，属于理解范畴。"
       }
     },
     {
@@ -1144,49 +1442,63 @@
       "properties": {
         "description": "探讨可再生能源开发、太阳能利用、核能潜力与挑战等与现代社会发展密切相关的新能源问题。",
         "subject": "Physics",
-        "theme": "物理学与新能源"
+        "theme": "物理学与新能源",
+        "bloom_level": "Evaluate",
+        "bloom_reasoning": "该知识点要求学习者探讨新能源的“潜力与挑战”，并结合社会发展做出判断和论证，这符合评价层级的要求。"
       }
     },
     {
       "id": "necessity_of_renewable_energy",
       "label": "可再生能源开发的必要性",
       "properties": {
-        "description": "论证在全球能源消耗日益增长和化石能源日益枯竭的背景下，开发太阳能、风能等可再生能源的紧迫性和重要性。"
+        "description": "论证在全球能源消耗日益增长和化石能源日益枯竭的背景下，开发太阳能、风能等可再生能源的紧迫性和重要性。",
+        "bloom_level": "Evaluate",
+        "bloom_reasoning": "核心要求是“论证”其必要性。这需要学习者基于能源现状、环境影响等准则，对开发可再生能源的价值和紧迫性做出判断和辩护。"
       }
     },
     {
       "id": "solar_energy_utilization_tech",
       "label": "太阳能利用技术",
       "properties": {
-        "description": "研究将太阳能转化为人类可用能源（如电能、热能）的技术，主要包括光伏发电和光热转换两种方式。"
+        "description": "研究将太阳能转化为人类可用能源（如电能、热能）的技术，主要包括光伏发电和光热转换两种方式。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点的学习目标是让学习者回忆太阳能利用技术的定义，并列举出其两种主要方式，属于对事实性知识的记忆。"
       }
     },
     {
       "id": "photovoltaic_power_generation",
       "label": "光伏发电",
       "properties": {
-        "description": "利用半导体的光生伏特效应，将太阳光能直接转化为直流电能的技术。太阳能电池是其核心部件。"
+        "description": "利用半导体的光生伏特效应，将太阳光能直接转化为直流电能的技术。太阳能电池是其核心部件。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点是对“光伏发电”这一名词的定义性描述，核心学习目标是要求学习者记住其定义、基本原理和核心部件。"
       }
     },
     {
       "id": "photothermal_conversion",
       "label": "光热转换",
       "properties": {
-        "description": "利用集热装置吸收太阳辐射能，将光能转化为热能加以利用的技术，如太阳能热水器。"
+        "description": "利用集热装置吸收太阳辐射能，将光能转化为热能加以利用的技术，如太阳能热水器。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点是对“光热转换”这一技术名词的定义性描述，学习目标是记住其定义和典型例子，属于对事实性知识的回忆。"
       }
     },
     {
       "id": "nuclear_energy_potential_and_risk",
       "label": "核能的潜力与风险",
       "properties": {
-        "description": "深入对比核裂变与核聚变的能量产出、技术成熟度和安全风险，并分析核废料处理等挑战。"
+        "description": "深入对比核裂变与核聚变的能量产出、技术成熟度和安全风险，并分析核废料处理等挑战。",
+        "bloom_level": "Analyze",
+        "bloom_reasoning": "该知识点要求学习者“深入对比”和“分析”，需要将核能分解为不同方面（裂变、聚变、废料），并比较其优劣关系，属于分析层级。"
       }
     },
     {
       "id": "international_nuclear_accidents",
       "label": "国际核事故案例分析",
       "properties": {
-        "description": "通过分析切尔诺贝利、福岛等重大核事故的案例，总结核能利用中的安全问题和经验教训，强调核安全的重要性。"
+        "description": "通过分析切尔诺贝利、福岛等重大核事故的案例，总结核能利用中的安全问题和经验教训，强调核安全的重要性。",
+        "bloom_level": "Analyze",
+        "bloom_reasoning": "核心要求是将复杂的核事故案例分解为不同部分（如原因、过程、后果），探究其内在的因果关系和结构，以总结经验教训。"
       }
     },
     {
@@ -1195,42 +1507,54 @@
       "properties": {
         "description": "探讨物理学原理（特别是凝聚态物理和量子力学）如何催生具有革命性特性的新材料，如纳米材料和超导材料，并研究其应用。",
         "subject": "Physics",
-        "theme": "物理学与新材料"
+        "theme": "物理学与新材料",
+        "bloom_level": "Analyze",
+        "bloom_reasoning": "核心是分析物理学原理（因）如何催生新材料及其特性（果），涉及对复杂现象的分解和关系探究。"
       }
     },
     {
       "id": "nanomaterials",
       "label": "纳米材料",
       "properties": {
-        "description": "指在三维空间中至少有一维处于纳米尺度（1-100nm）的材料。由于其高比表面积、小尺寸效应和量子效应，常表现出独特的物理化学性质。"
+        "description": "指在三维空间中至少有一维处于纳米尺度（1-100nm）的材料。由于其高比表面积、小尺寸效应和量子效应，常表现出独特的物理化学性质。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点要求学习者不仅要记住纳米材料的定义，还要理解其尺寸效应与独特性质之间的因果关系，属于对概念的解释和说明，符合理解层级。"
       }
     },
     {
       "id": "superconducting_materials",
       "label": "超导材料",
       "properties": {
-        "description": "在特定低温下，电阻突然消失为零的材料。超导现象是一种宏观量子效应，具有零电阻和完全抗磁性（迈斯纳效应）两大基本特征。"
+        "description": "在特定低温下，电阻突然消失为零的材料。超导现象是一种宏观量子效应，具有零电阻和完全抗磁性（迈斯纳效应）两大基本特征。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点的核心是要求学习者回忆超导材料的定义和其两大基本特征（零电阻、完全抗磁性），属于对事实性知识的记忆。"
       }
     },
     {
       "id": "zero_resistance",
       "label": "零电阻效应",
       "properties": {
-        "description": "超导体在进入超导态后，其直流电阻完全消失的现象。这使得超导材料在长距离输电和制造强磁体方面有巨大潜力。"
+        "description": "超导体在进入超导态后，其直流电阻完全消失的现象。这使得超导材料在长距离输电和制造强磁体方面有巨大潜力。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点的核心是要求学习者记住“零电阻效应”的定义，即回忆一个具体的事实性概念，符合“记忆”层级的要求。"
       }
     },
     {
       "id": "meissner_effect",
       "label": "迈斯纳效应",
       "properties": {
-        "description": "超导体在进入超导态时，会将其内部的磁场完全排斥出去，使其内部磁感应强度为零的现象。这是超导体完全抗磁性的表现。"
+        "description": "超导体在进入超导态时，会将其内部的磁场完全排斥出去，使其内部磁感应强度为零的现象。这是超导体完全抗磁性的表现。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点要求学习者解释一个物理现象的定义、过程和性质（完全抗磁性），这超越了简单记忆，属于理解层面。"
       }
     },
     {
       "id": "functional_materials",
       "label": "功能材料",
       "properties": {
-        "description": "指那些除了具有机械性能外，还具有电、磁、光、热、声、化学、生物等特殊功能的材料，如形状记忆合金、光纤等。"
+        "description": "指那些除了具有机械性能外，还具有电、磁、光、热、声、化学、生物等特殊功能的材料，如形状记忆合金、光纤等。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点为“功能材料”的基本定义和举例，学习目标是回忆其定义并识别出相关例子。"
       }
     },
     {
@@ -1239,49 +1563,63 @@
       "properties": {
         "description": "一种检测装置，能感受到被测量的信息，并能将感受到的信息，按一定规律变换成为电信号或其他所需形式的信息输出，以满足信息的传输、处理、存储、显示、记录和控制等要求。",
         "subject": "Physics",
-        "theme": "传感器"
+        "theme": "传感器",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点要求学习者解释传感器的定义、功能和作用，而不仅仅是回忆其名词，这符合“理解”层级的要求。"
       }
     },
     {
       "id": "sensor_working_principle",
       "label": "传感器工作原理",
       "properties": {
-        "description": "理解传感器如何将非电学量（如温度、光强、压力）通过物理效应（如热敏效应、光敏效应、压电效应）转换成电学量（如电压、电流、电阻）。"
+        "description": "理解传感器如何将非电学量（如温度、光强、压力）通过物理效应（如热敏效应、光敏效应、压电效应）转换成电学量（如电压、电流、电阻）。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点的核心要求是解释和说明传感器如何实现物理量到电学量的转换过程，属于对概念和原理的理解，符合“理解”层级的定义。"
       }
     },
     {
       "id": "photoresistor",
       "label": "光敏电阻",
       "properties": {
-        "description": "一种电阻值随入射光强度变化而改变的电阻器，其工作原理是光电导效应。常用于光控开关、光电计数器等。"
+        "description": "一种电阻值随入射光强度变化而改变的电阻器，其工作原理是光电导效应。常用于光控开关、光电计数器等。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "该知识点不仅要求记住其定义，更要求理解其工作原理（光电导效应）和功能（电阻值随光强变化），符合“理解”层级解释和描述概念的要求。"
       }
     },
     {
       "id": "thermistor",
       "label": "热敏电阻",
       "properties": {
-        "description": "一种电阻值对温度非常敏感的半导体电阻器。分为正温度系数（PTC）和负温度系数（NTC）热敏电阻。常用于温度测量和控制。"
+        "description": "一种电阻值对温度非常敏感的半导体电阻器。分为正温度系数（PTC）和负温度系数（NTC）热敏电阻。常用于温度测量和控制。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "学习者需解释热敏电阻的概念（对温度敏感），并对其进行分类（PTC/NTC），这涉及对信息的解释和分类，超越了单纯的记忆。"
       }
     },
     {
       "id": "hall_element",
       "label": "霍尔元件",
       "properties": {
-        "description": "一种基于霍尔效应的磁传感器，能将磁场强度转化为电压信号。广泛应用于测量磁场、电流以及位移、压力等转换来的磁场信号。"
+        "description": "一种基于霍尔效应的磁传感器，能将磁场强度转化为电压信号。广泛应用于测量磁场、电流以及位移、压力等转换来的磁场信号。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点是对霍尔元件定义、功能和应用等事实性知识的识别与回忆。"
       }
     },
     {
       "id": "hall_effect",
       "label": "霍尔效应",
       "properties": {
-        "description": "当电流垂直于外磁场通过导体时，在导体的垂直于磁场和电流方向的两个端面之间会出现电势差的现象。"
+        "description": "当电流垂直于外磁场通过导体时，在导体的垂直于磁场和电流方向的两个端面之间会出现电势差的现象。",
+        "bloom_level": "Remember",
+        "bloom_reasoning": "该知识点是对“霍尔效应”这一物理现象的定义性描述。学习此知识点的首要任务是记住其发生的条件和结果，属于对事实性知识的回忆。"
       }
     },
     {
       "id": "sensor_applications_in_life",
       "label": "传感器在生活中的应用",
       "properties": {
-        "description": "探讨传感器在各种日常生活设备和系统中的应用，例如智能手机中的加速度计、家用电器中的温度传感器和汽车中的各种传感器。"
+        "description": "探讨传感器在各种日常生活设备和系统中的应用，例如智能手机中的加速度计、家用电器中的温度传感器和汽车中的各种传感器。",
+        "bloom_level": "Understand",
+        "bloom_reasoning": "学习目标是解释和说明传感器在具体设备中的作用，例如解释加速度计如何用于手机屏幕旋转，这超越了简单记忆，属于理解层面。"
       }
     }
   ],
