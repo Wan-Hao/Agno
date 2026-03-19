@@ -1,0 +1,118 @@
+{
+  "source": "dataset/books-pdf/普通高中教科书 数学  必修 第一册.pdf",
+  "nodes": [
+    {
+      "id": "mathematical_language",
+      "label": "数学语言",
+      "properties": {
+        "description": "一套由数学家使用的、用于明确表达思想和关系的沟通系统，其特点是高度精确、简洁，并使用专门的符号和结构（如集合）来避免歧义。",
+        "category": "数学基础",
+        "theme": "逻辑与集合",
+        "bloom_levels": {
+          "remember": "什么是数学语言？它是一种用于准确、无歧义地表达数学思想的符号和规则系统，集合是其重要组成部分。",
+          "understand": "为什么数学语言是精确的？因为它使用严格定义的符号和结构（如集合），排除了自然语言中常见的多义性和模糊性，从而确保了交流的清晰和逻辑的严密。",
+          "apply": "如何使用数学语言？例如，使用集合语言 `{x | x > 2 且 x 是整数}` 来精确地描述一个对象群体，这比用自然语言“所有大于2的整数”更加简洁和标准化，便于进行数学运算和证明。"
+        }
+      },
+      "status": "approved",
+      "critique_comment": "整合了'数学语言'、'数学语言的精确性'和'集合语言的作用'，形成了一个更全面、高质量的核心概念。"
+    },
+    {
+      "id": "set",
+      "label": "集合",
+      "properties": null,
+      "status": "rejected",
+      "critique_comment": "定义过于片面，仅描述了其在数学语言中的作用，未解释其本质。高质量的'集合'词条应独立定义，并包含元素、子集等核心概念。"
+    },
+    {
+      "id": "the_role_of_set_language",
+      "label": "集合语言的作用",
+      "properties": null,
+      "status": "rejected",
+      "critique_comment": "内容冗余，其核心思想已并入'数学语言'词条的'understand'和'apply'层级中，不适合作为独立概念。"
+    },
+    {
+      "id": "logic",
+      "label": "逻辑",
+      "properties": null,
+      "status": "rejected",
+      "critique_comment": "概念过于宽泛，其核心内容已被更具体、更具操作性的'逻辑推理'词条吸收和优化。"
+    },
+    {
+      "id": "logical_reasoning",
+      "label": "逻辑推理",
+      "properties": {
+        "description": "一个从一组前提（假定为真的陈述）出发，遵循严格的逻辑规则，以推导出结论的严谨思维过程。在数学中，它确保了只要前提为真，结论必然为真。",
+        "category": "数学基础",
+        "theme": "逻辑与集合",
+        "bloom_levels": {
+          "remember": "什么是逻辑推理？它是一个从前提（已知条件）出发，按照逻辑规则推导出结论的过程。",
+          "understand": "逻辑推理的核心原则是什么？核心原则是：只要前提是正确的，并且推理过程是严格有效的，那么得出的结论必然是正确的。这保证了数学知识的可靠性。",
+          "apply": "如何应用逻辑推理？在几何证明中，从已知的公理和定理（前提）出发，通过一步步的逻辑推导（例如三段论），最终证明一个新的命题（结论）。"
+        }
+      },
+      "status": "approved",
+      "critique_comment": "整合了'逻辑'、'逻辑推理'和'逻辑推理的原则'，定义清晰，布鲁姆层级分明，是一个高质量的核心概念。"
+    },
+    {
+      "id": "principle_of_logical_reasoning",
+      "label": "逻辑推理的原则",
+      "properties": null,
+      "status": "rejected",
+      "critique_comment": "内容冗余，该原则是'逻辑推理'概念的核心，已融入'逻辑推理'词条的定义和'understand'层级，无需独立存在。"
+    },
+    {
+      "id": "relationship_between_mathematics_and_other_disciplines",
+      "label": "数学与其他学科的关系",
+      "properties": null,
+      "status": "rejected",
+      "critique_comment": "概念过于宽泛和琐碎，缺乏具体的知识点，不适合作为百科词条。"
+    },
+    {
+      "id": "conventions_of_mathematical_language",
+      "label": "数学语言的约定",
+      "properties": null,
+      "status": "rejected",
+      "critique_comment": "概念过于模糊，'有一些公认的特殊约定'未能提供任何实质性信息，属于低质量内容。"
+    },
+    {
+      "id": "premise",
+      "label": "前提",
+      "properties": {
+        "description": "在逻辑论证开始时被假定为真的陈述或命题，结论由此推导而出。整个论证的有效性取决于其前提的真实性。",
+        "category": "数学基础",
+        "theme": "逻辑与集合",
+        "bloom_levels": {
+          "remember": "什么是前提？前提是逻辑推理的出发点和依据，是被假定为真的陈述。",
+          "understand": "前提在逻辑推理中扮演什么角色？前提是结论的基石。如果前提错误或不被接受，那么即使推理过程本身有效，结论也可能是不可靠或无效的。",
+          "apply": "如何识别一个论证中的前提？在“所有人都会死，苏格拉底是人，所以苏格拉底会死”这个论证中，“所有人都会死”和“苏格拉底是人”就是前提。"
+        }
+      },
+      "status": "approved",
+      "critique_comment": "定义清晰，是逻辑推理中一个独立且重要的基本构成部分，予以通过。"
+    },
+    {
+      "id": "conclusion",
+      "label": "结论",
+      "properties": {
+        "description": "基于一个或多个前提，通过逻辑推理过程而得出并被断定为真的陈述。",
+        "category": "数学基础",
+        "theme": "逻辑与集合",
+        "bloom_levels": {
+          "remember": "什么是结论？结论是通过逻辑推理从前提中得出的结果。",
+          "understand": "结论与前提的关系是什么？结论的真实性是由前提的真实性和推理过程的有效性共同保证的。结论是前提逻辑蕴含的结果。",
+          "apply": "如何得出一个结论？在前提“如果下雨，那么地面会湿”和“现在正在下雨”的基础上，可以逻辑地推导出结论：“地面是湿的”。"
+        }
+      },
+      "status": "approved",
+      "critique_comment": "定义清晰，是逻辑推理中一个独立且重要的基本构成部分，予以通过。"
+    },
+    {
+      "id": "precision_of_mathematical_language",
+      "label": "数学语言的精确性",
+      "properties": null,
+      "status": "rejected",
+      "critique_comment": "内容冗余，这是'数学语言'的一个核心属性，已并入'数学语言'词条，不适合作为独立概念。"
+    }
+  ]
+}

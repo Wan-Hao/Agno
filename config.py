@@ -15,7 +15,7 @@ class Config:
     # API 配置
     GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
     API_BASE_URL = os.getenv("API_BASE_URL", "")
-    GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.0-flash-exp")
+    GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3-pro-preview")
     TEMPERATURE = float(os.getenv("TEMPERATURE", "0.7"))
     MAX_TOKENS = int(os.getenv("MAX_TOKENS", "8192"))
     

@@ -112,21 +112,23 @@ class NodePairChatroom:
         self,
         physics_node_id: str,
         math_node_id: str,
-        context_depth: int = 1
+        context_depth: int = 1,
+        max_rounds: int = 6
     ) -> Optional[Dict[str, Any]]:
         """
-        讨论一对节点
+        多轮讨论一对节点
         
         Args:
             physics_node_id: 物理节点ID
             math_node_id: 数学节点ID
             context_depth: 上下文深度（相关节点的层数）
+            max_rounds: 最大对话轮数
             
         Returns:
             生成的边（如果评估通过），否则None
         """
         print(f"\n{'='*70}")
-        print(f"讨论节点对: [{physics_node_id}] ↔ [{math_node_id}]")
+        print(f"多轮讨论节点对: [{physics_node_id}] ↔ [{math_node_id}]")
         print(f"{'='*70}\n")
         
         # 验证节点存在
@@ -156,59 +158,92 @@ class NodePairChatroom:
             depth=context_depth
         )
         
-        # 物理agent发言
-        print(f"[{self.physics_agent.name}] 正在分析物理节点...")
-        physics_response = self._agent_discuss_node(
-            self.physics_agent,
-            physics_node,
-            physics_context,
-            math_node,
-            "physics"
-        )
-        print(f"[{self.physics_agent.name}]: {physics_response[:300]}...\n")
+        # 初始化对话历史
+        physics_history = []
+        math_history = []
         
-        # 数学agent发言
-        print(f"[{self.math_agent.name}] 正在分析数学节点...")
-        math_response = self._agent_discuss_node(
-            self.math_agent,
-            math_node,
-            math_context,
-            physics_node,
-            "math",
-            other_response=physics_response
-        )
-        print(f"[{self.math_agent.name}]: {math_response[:300]}...\n")
-        
-        # 检查是否偏离
-        if self._is_off_topic(physics_response, math_response, physics_node_id, math_node_id):
-            print(f"[{self.meta_agent.name}] 检测到讨论偏离，进行矫正...")
-            correction = self._correct_discussion(
-                physics_node,
-                math_node,
-                physics_response,
-                math_response
-            )
-            print(f"[{self.meta_agent.name}]: {correction[:200]}...\n")
+        # 多轮对话循环
+        for round_num in range(1, max_rounds + 1):
+            print(f"\n--- 第 {round_num} 轮对话 ---")
             
-            # 可以选择重新讨论，这里简化为跳过
-            return None
-        else:
-            print(f"[{self.meta_agent.name}] 讨论聚焦良好\n")
+            # 物理agent发言
+            print(f"[{self.physics_agent.name}] 第{round_num}轮发言...")
+            physics_response = self._agent_discuss_node_with_history(
+                self.physics_agent,
+                physics_node,
+                physics_context,
+                math_node,
+                "physics",
+                physics_history,
+                math_history,
+                round_num
+            )
+            physics_history.append(physics_response)
+            print(f"[{self.physics_agent.name}]: {physics_response}\n")
+            
+            # 数学agent发言
+            print(f"[{self.math_agent.name}] 第{round_num}轮发言...")
+            math_response = self._agent_discuss_node_with_history(
+                self.math_agent,
+                math_node,
+                math_context,
+                physics_node,
+                "math",
+                math_history,
+                physics_history,
+                round_num
+            )
+            math_history.append(math_response)
+            print(f"[{self.math_agent.name}]: {math_response}\n")
+            
+            # 检查是否偏离主题
+            if self._is_off_topic_multi_round(physics_history, math_history, physics_node_id, math_node_id):
+                print(f"[{self.meta_agent.name}] 检测到讨论偏离，进行矫正...")
+                correction = self._correct_discussion_multi_round(
+                    physics_node,
+                    math_node,
+                    physics_history,
+                    math_history
+                )
+                print(f"[{self.meta_agent.name}]: {correction}\n")
+                continue  # 继续下一轮，给机会矫正
+            
+            # 每两轮检查一次讨论成效
+            if round_num >= 2 and round_num % 2 == 0:
+                print(f"[{self.meta_agent.name}] 评估第{round_num}轮后的讨论成效...")
+                should_continue, assessment = self._assess_discussion_progress(
+                    physics_node,
+                    math_node,
+                    physics_history,
+                    math_history,
+                    round_num
+                )
+                print(f"[{self.meta_agent.name}]: {assessment}\n")
+                
+                if not should_continue:
+                    print(f"[{self.meta_agent.name}] ✓ 讨论已达到足够成效，终止对话\n")
+                    break
+            
+            # 检查是否达到最大轮数
+            if round_num == max_rounds:
+                print(f"[{self.meta_agent.name}] 已达到最大轮数 {max_rounds}，结束对话\n")
         
-        # 提取边
-        edge = self._extract_edge(
+        print(f"💬 对话结束，共进行了 {len(physics_history)} 轮\n")
+        
+        # 从完整的对话历史中提取边
+        edge = self._extract_edge_from_history(
             physics_node_id,
             math_node_id,
-            physics_response,
-            math_response
+            physics_history,
+            math_history
         )
         
         if not edge:
-            print("✗ 未能从讨论中提取有效的边\n")
+            print("✗ 未能从对话历史中提取有效的边\n")
             return None
         
         # 评估边
-        print(f"[{self.evaluator.name}] 正在评估边...")
+        print(f"[{self.evaluator.name}] 正在评估基于多轮对话的边...")
         is_valid, reason = self._evaluate_edge(edge)
         
         if is_valid:
@@ -355,6 +390,96 @@ class NodePairChatroom:
         
         return agent.client.generate(prompt, agent.system_instruction)
     
+    def _agent_discuss_node_with_history(
+        self,
+        agent: Agent,
+        main_node: Dict,
+        context: str,
+        other_node: Dict,
+        perspective: str,
+        own_history: List[str],
+        other_history: List[str],
+        round_num: int
+    ) -> str:
+        """让agent基于对话历史进行讨论"""
+        prompt = f"""
+# 你的知识背景
+
+{context}
+
+# 对方的知识节点
+
+**[{other_node['id']}]** {other_node.get('label', '')}
+{other_node.get('properties', {}).get('description', '')}
+
+"""
+        
+        # 添加对话历史
+        if own_history or other_history:
+            prompt += "# 对话历史\n\n"
+            
+            # 将对话历史按轮次整理
+            max_history_len = max(len(own_history), len(other_history))
+            for i in range(max_history_len):
+                prompt += f"## 第{i+1}轮对话:\n\n"
+                
+                # 添加对方在这轮的发言
+                if i < len(other_history):
+                    other_domain = "数学" if perspective == "physics" else "物理"
+                    prompt += f"**{other_domain}专家**: {other_history[i]}\n\n"
+                
+                # 添加自己在这轮的发言（如果存在）
+                if i < len(own_history):
+                    own_domain = "物理" if perspective == "physics" else "数学"
+                    prompt += f"**{own_domain}专家**: {own_history[i]}\n\n"
+            
+            prompt += "\n"
+        
+        # 根据轮次调整任务指令
+        if round_num == 1:
+            task_instruction = f"""
+# 第{round_num}轮任务
+
+这是我们的第一次对话。请从{perspective}的角度，分析：
+
+1. 你的核心节点 [{main_node['id']}] 与对方的节点 [{other_node['id']}] 是否有内在联系？
+2. 如果有联系，是什么类型的联系？（依赖、支撑、类比、应用等）
+3. 结合你的学科内相关知识，说明这种联系的具体体现
+
+**重要**: 这是一个对话过程，不是独白。请积极寻找与对方观点的连接点，为后续深入讨论奠定基础。
+"""
+        else:
+            task_instruction = f"""
+# 第{round_num}轮任务
+
+这是我们的第{round_num}轮对话。基于以上对话历史，请：
+
+1. 回应对方在前一轮提出的观点或问题
+2. 进一步阐述你认为两个节点之间的联系
+3. 提出新的思考角度或更深层的关联
+4. 如果有疑问，可以向对方提出具体问题
+
+**对话要求**：
+- 直接回应对方的关键观点
+- 承认对方合理的见解
+- 提出建设性的补充或质疑
+- 保持学术讨论的深度和严谨性
+- 如果发现了新的跨学科关联，请详细说明
+"""
+        
+        prompt += task_instruction
+        
+        prompt += f"""
+
+**格式要求**：
+- 必须基于具体的知识内容，不要空谈
+- 明确引用节点ID（用方括号，如 [{main_node['id']}]）
+- 如果认为没有明显联系，也要说明理由
+- 积极回应对话，推进讨论深度
+"""
+        
+        return agent.client.generate(prompt, agent.system_instruction)
+    
     def _is_off_topic(
         self,
         physics_response: str,
@@ -401,6 +526,213 @@ class NodePairChatroom:
 """
         
         return self.meta_agent.client.generate(prompt, self.meta_agent.system_instruction)
+    
+    def _is_off_topic_multi_round(
+        self,
+        physics_history: List[str],
+        math_history: List[str],
+        physics_node_id: str,
+        math_node_id: str
+    ) -> bool:
+        """检查多轮对话是否偏离主题"""
+        if not physics_history or not math_history:
+            return True
+        
+        # 检查最近一轮是否提到核心节点
+        latest_physics = physics_history[-1]
+        latest_math = math_history[-1]
+        
+        physics_mentioned = physics_node_id in latest_physics
+        math_mentioned = math_node_id in latest_math
+        
+        if not physics_mentioned or not math_mentioned:
+            return True
+        
+        # 检查最近发言的长度（太短可能是敷衍）
+        if len(latest_physics) < 100 or len(latest_math) < 100:
+            return True
+        
+        return False
+    
+    def _correct_discussion_multi_round(
+        self,
+        physics_node: Dict,
+        math_node: Dict,
+        physics_history: List[str],
+        math_history: List[str]
+    ) -> str:
+        """矫正多轮讨论"""
+        # 构建对话历史摘要
+        history_summary = "最近的对话历史：\n"
+        for i, (p_resp, m_resp) in enumerate(zip(physics_history[-2:], math_history[-2:]), 1):
+            history_summary += f"第{len(physics_history)-2+i}轮:\n"
+            history_summary += f"物理专家: {p_resp[:200]}...\n"
+            history_summary += f"数学专家: {m_resp[:200]}...\n\n"
+        
+        prompt = f"""
+正在讨论的节点对：
+- 物理: [{physics_node['id']}] {physics_node.get('label', '')}
+- 数学: [{math_node['id']}] {math_node.get('label', '')}
+
+{history_summary}
+
+问题：讨论似乎偏离了这两个具体节点的关联探索。
+
+请用2-3句话提醒专家们：
+1. 回到这两个核心节点的讨论
+2. 聚焦在跨学科关联的发现上
+3. 保持讨论的学术性和深度
+"""
+        
+        return self.meta_agent.client.generate(prompt, self.meta_agent.system_instruction)
+    
+    def _assess_discussion_progress(
+        self,
+        physics_node: Dict,
+        math_node: Dict,
+        physics_history: List[str],
+        math_history: List[str],
+        current_round: int
+    ) -> tuple[bool, str]:
+        """
+        评估讨论进展，决定是否继续对话
+        
+        Returns:
+            (是否继续, 评估说明)
+        """
+        # 构建完整的对话历史
+        dialogue_history = ""
+        for i, (p_resp, m_resp) in enumerate(zip(physics_history, math_history), 1):
+            dialogue_history += f"第{i}轮对话:\n"
+            dialogue_history += f"物理专家: {p_resp}\n"
+            dialogue_history += f"数学专家: {m_resp}\n\n"
+        
+        prompt = f"""
+正在讨论的节点对：
+- 物理: [{physics_node['id']}] {physics_node.get('label', '')}
+- 数学: [{math_node['id']}] {math_node.get('label', '')}
+
+当前已进行 {current_round} 轮对话：
+
+{dialogue_history}
+
+请评估讨论的成效，判断是否应该继续对话。考虑以下因素：
+
+1. **关联发现度**: 是否已经发现了明确的跨学科关联？
+2. **讨论深度**: 双方是否进行了深入的学术交流？
+3. **新洞见产生**: 最近几轮是否还在产生新的见解？
+4. **对话质量**: 双方是否在积极回应和建设性对话？
+5. **重复程度**: 是否开始重复之前的观点？
+
+请以JSON格式返回评估结果：
+{{
+  "continue": true/false,
+  "reason": "继续或停止的原因（2-3句话）",
+  "quality_score": 0.0到1.0之间的对话质量评分,
+  "association_found": true/false,
+  "association_strength": "weak/moderate/strong 或 none"
+}}
+
+如果发现了强关联或达到了深入讨论的效果，应该停止对话。
+如果讨论还在产生新洞见且未发现明确关联，应该继续。
+"""
+        
+        try:
+            response = self.meta_agent.client.generate(prompt, self.meta_agent.system_instruction)
+            
+            # 提取JSON
+            import re
+            json_match = re.search(r'\{[\s\S]*?\}', response)
+            if json_match:
+                import json
+                result = json.loads(json_match.group())
+                
+                should_continue = result.get('continue', True)
+                reason = result.get('reason', '评估完成')
+                
+                # 如果发现了强关联，建议停止
+                association_strength = result.get('association_strength', 'none')
+                if association_strength in ['strong', 'moderate']:
+                    should_continue = False
+                    reason += f" 发现了{association_strength}关联，可以结束对话。"
+                
+                return should_continue, reason
+        
+        except Exception as e:
+            print(f"评估讨论进展时出错：{e}")
+        
+        # 默认：如果轮数过多就停止
+        if current_round >= 4:
+            return False, f"已进行{current_round}轮对话，建议结束以避免过度讨论。"
+        
+        return True, "继续对话以探索更深层的关联。"
+    
+    def _extract_edge_from_history(
+        self,
+        physics_node_id: str,
+        math_node_id: str,
+        physics_history: List[str],
+        math_history: List[str]
+    ) -> Optional[Dict[str, Any]]:
+        """从完整的对话历史中提取边"""
+        # 构建完整的对话历史
+        dialogue_text = f"关于 [{physics_node_id}] 和 [{math_node_id}] 的完整对话:\n\n"
+        
+        for i, (p_resp, m_resp) in enumerate(zip(physics_history, math_history), 1):
+            dialogue_text += f"=== 第{i}轮对话 ===\n\n"
+            dialogue_text += f"物理专家关于 [{physics_node_id}] 的观点:\n{p_resp}\n\n"
+            dialogue_text += f"数学专家关于 [{math_node_id}] 的观点:\n{m_resp}\n\n"
+        
+        prompt = f"""
+{dialogue_text}
+
+请分析这段完整的多轮对话，判断 [{physics_node_id}] 和 [{math_node_id}] 之间是否存在跨学科关联。
+
+相比单轮对话，多轮对话提供了更丰富的信息：
+- 双方的多次阐述和深化
+- 互相回应和建设性讨论
+- 逐步发现的深层联系
+
+如果存在关联，返回JSON格式（只返回JSON，不要其他内容）：
+{{
+  "source": "{physics_node_id}",
+  "target": "{math_node_id}",
+  "label": "关系类型（如 requires, models, analogous_to, structurally_similar 等）",
+  "properties": {{
+    "description": "关系的简洁描述（基于多轮对话的综合理解）",
+    "reasoning": "基于对话历史的关联发现过程",
+    "confidence": 0.0到1.0之间的数值,
+    "dialogue_rounds": {len(physics_history)},
+    "key_insights": ["对话中的关键洞见1", "关键洞见2"]
+  }}
+}}
+
+如果不存在明显关联，返回：
+{{"exists": false, "reason": "未发现明确关联的原因"}}
+"""
+        
+        try:
+            response = self.meta_agent.client.generate(prompt, self.meta_agent.system_instruction)
+            
+            # 提取JSON
+            import re
+            json_match = re.search(r'\{[\s\S]*\}', response)
+            if json_match:
+                import json
+                edge_data = json.loads(json_match.group())
+                
+                # 检查是否标记为不存在
+                if edge_data.get('exists') == False:
+                    return None
+                
+                # 验证必需字段
+                if all(k in edge_data for k in ['source', 'target', 'label', 'properties']):
+                    return edge_data
+        
+        except Exception as e:
+            print(f"从对话历史提取边时出错：{e}")
+        
+        return None
     
     def _extract_edge(
         self,

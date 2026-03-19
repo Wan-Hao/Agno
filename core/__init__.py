@@ -3,7 +3,7 @@
 """
 from .agent import Agent
 from .edge import KnowledgeEdge
-from .gemini_client import GeminiClient
+from .openai_client import OpenAIClient
 
-__all__ = ["Agent", "KnowledgeEdge", "GeminiClient"]
+__all__ = ["Agent", "KnowledgeEdge", "OpenAIClient"]
 

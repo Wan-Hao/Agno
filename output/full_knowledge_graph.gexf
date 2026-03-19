@@ -1,0 +1,2155 @@
+<?xml version="1.0" ?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+  <meta>
+    <creator>Cross-disciplinary Agent</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="subject" type="string"/>
+      <attribute id="1" title="bloom_level" type="string"/>
+    </attributes>
+    <nodes>
+      <node id="set_concepts_and_representation" label="集合的概念与表示">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="set_definition" label="集合的含义">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="element_set_membership" label="元素与集合的属于关系">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="set_representation_methods" label="集合的表示方法">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="roster_method" label="列举法">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="set_builder_notation" label="描述法">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="special_sets" label="特殊集合">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="empty_set" label="空集">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="universal_set" label="全集">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="set_relations_and_operations" label="集合的基本关系与运算">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Apply"/>
+        </attvalues>
+      </node>
+      <node id="set_relations" label="集合关系">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="subset_relation" label="子集（包含关系）">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="proper_subset_relation" label="真子集">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="set_equality" label="集合相等">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="set_operations" label="集合运算">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="union_operation" label="并集">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="intersection_operation" label="交集">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="complement_operation" label="补集">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="venn_diagram" label="韦恩图">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="preparatory_knowledge" label="预备知识">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="common_logical_language" label="常用逻辑用语">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Analyze"/>
+        </attvalues>
+      </node>
+      <node id="proposition" label="命题">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="proposition_truth_value" label="命题的真假判断">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Evaluate"/>
+        </attvalues>
+      </node>
+      <node id="conditional_statements" label="条件叙述">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="sufficient_condition" label="充分条件">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="necessary_condition" label="必要条件">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="biconditional_statement" label="充要条件">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="quantifiers" label="量词">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="universal_quantifier" label="全称量词">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="existential_quantifier" label="存在量词">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="basic_properties_of_inequalities" label="不等式的基本性质">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Apply"/>
+        </attvalues>
+      </node>
+      <node id="inequality_symmetry" label="对称性">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="inequality_transitivity" label="传递性">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="inequality_additivity" label="加法性质">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="inequality_multiplicativity" label="乘法性质">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="inequality_division" label="除法性质">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="am_gm_inequality" label="基本不等式（均值不等式）">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Apply"/>
+        </attvalues>
+      </node>
+      <node id="quadratic_equation_and_inequality" label="一元二次方程与不等式">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Analyze"/>
+        </attvalues>
+      </node>
+      <node id="quadratic_equation_analysis" label="一元二次方程分析">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Analyze"/>
+        </attvalues>
+      </node>
+      <node id="quadratic_inequality_solving" label="一元二次不等式求解">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Apply"/>
+        </attvalues>
+      </node>
+      <node id="quadratic_function_perspective" label="二次函数视角">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Analyze"/>
+        </attvalues>
+      </node>
+      <node id="equation_roots_and_graph_intercepts" label="方程根与图像交点">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="solve_inequality_by_graph_position" label="通过图像位置关系解不等式">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Apply"/>
+        </attvalues>
+      </node>
+      <node id="equation_function_connection" label="方程与函数的联系">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Analyze"/>
+        </attvalues>
+      </node>
+      <node id="function_zero" label="函数零点">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="intermediate_value_theorem" label="介值定理">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Apply"/>
+        </attvalues>
+      </node>
+      <node id="monotonicity_and_solution_uniqueness" label="函数单调性与解的唯一性">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Apply"/>
+        </attvalues>
+      </node>
+      <node id="proposition_negation_and_contrapositive" label="命题的否定与逆否命题">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Analyze"/>
+        </attvalues>
+      </node>
+      <node id="negation_of_a_proposition" label="命题的否定">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="negation_of_quantified_propositions" label="量化命题的否定">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Apply"/>
+        </attvalues>
+      </node>
+      <node id="contrapositive_proposition" label="逆否命题">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="contrapositive_equivalence" label="逆否等价性">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="symbolic_language_and_expression_standards" label="数学符号语言与表达规范">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="correct_symbol_writing" label="数学符号的正确书写">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="natural_symbolic_language_conversion" label="自然语言与符号语言的转换">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="function_theme" label="函数">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="function_definition_and_elements" label="函数定义与三要素">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="mapping_concept" label="映射">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="function_three_elements" label="函数三要素">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="domain" label="定义域">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="range" label="值域">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="correspondence_rule" label="对应法则">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="function_representation_methods" label="函数的表示方法">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Analyze"/>
+        </attvalues>
+      </node>
+      <node id="analytical_method" label="解析式法">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="tabular_method" label="列表法">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Apply"/>
+        </attvalues>
+      </node>
+      <node id="graphical_method" label="图像法">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Apply"/>
+        </attvalues>
+      </node>
+      <node id="piecewise_function" label="分段函数及其应用">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Apply"/>
+        </attvalues>
+      </node>
+      <node id="piecewise_function_definition" label="分段函数的定义">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="piecewise_function_application" label="分段函数的应用">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Apply"/>
+        </attvalues>
+      </node>
+      <node id="function_properties" label="函数的基本性质">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="monotonicity_and_extrema" label="函数单调性与极值">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Analyze"/>
+        </attvalues>
+      </node>
+      <node id="monotonicity" label="单调性">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="increasing_function" label="增函数">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="decreasing_function" label="减函数">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="extrema" label="极值">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="maximum_value" label="最大值">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="minimum_value" label="最小值">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="parity_and_periodicity" label="奇偶性与周期性">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="parity" label="奇偶性">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="even_function" label="偶函数">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="odd_function" label="奇函数">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="graphical_symmetry" label="图像的对称性">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="periodicity" label="周期性">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="period" label="周期">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="elementary_functions" label="基本初等函数">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="power_function" label="幂函数">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="power_function_graph_and_properties" label="幂函数图像与性质">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Analyze"/>
+        </attvalues>
+      </node>
+      <node id="exponential_and_logarithmic_functions" label="指数函数与对数函数">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="exponential_function" label="指数函数">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="logarithmic_function" label="对数函数">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="inverse_function_relationship" label="互为反函数关系">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="exponential_growth_decay_model" label="指数增长/衰减模型">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Apply"/>
+        </attvalues>
+      </node>
+      <node id="trigonometric_functions_and_identities" label="三角函数定义与恒等变换">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Apply"/>
+        </attvalues>
+      </node>
+      <node id="angle_and_radian_measure" label="角与弧度制">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="unit_circle_definition" label="单位圆定义">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="sine_cosine_tangent" label="正弦、余弦、正切函数">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="trigonometric_identities" label="三角恒等变换">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Analyze"/>
+        </attvalues>
+      </node>
+      <node id="sum_and_difference_formulas" label="和差角公式">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Apply"/>
+        </attvalues>
+      </node>
+      <node id="double_angle_formulas" label="二倍角公式">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Apply"/>
+        </attvalues>
+      </node>
+      <node id="bisection_method" label="二分法求方程近似解">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Apply"/>
+        </attvalues>
+      </node>
+      <node id="trigonometric_function_graphs_and_properties" label="三角函数的图像与性质">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Analyze"/>
+        </attvalues>
+      </node>
+      <node id="sine_function_graph_properties" label="正弦函数 y=sin(x) 的图像与性质">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="cosine_function_graph_properties" label="余弦函数 y=cos(x) 的图像与性质">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="tangent_function_graph_properties" label="正切函数 y=tan(x) 的图像与性质">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="function_y_Asin_omega_x_phi" label="函数 y=Asin(ωx+φ) 的图像与性质">
+        <attvalues>
+          <attvalue for="0" value="Mathematics"/>
+          <attvalue for="1" value="Analyze"/>
+        </attvalues>
+      </node>
+      <node id="mechanical_motion_and_physical_models" label="机械运动与物理模型">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="background_of_modern_experimental_science" label="近代实验科学背景与实验作用">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="galileo_experimental_method" label="伽利略的实验思想和方法">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Analyze"/>
+        </attvalues>
+      </node>
+      <node id="point_mass_model_construction" label="质点模型建构">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Analyze"/>
+        </attvalues>
+      </node>
+      <node id="physical_model" label="物理模型">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="point_mass" label="质点">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="abstraction_method" label="抽象方法">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="displacement_velocity_acceleration" label="位移、速度与加速度">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Analyze"/>
+        </attvalues>
+      </node>
+      <node id="kinematics_concepts" label="描述运动的基本概念">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="reference_frame" label="参考系与坐标系">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="time_and_instant" label="时间和时刻">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="displacement_and_distance" label="位移和路程">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="vector_and_scalar" label="矢量与标量">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="velocity_concepts" label="速度">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="average_velocity" label="平均速度">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="instantaneous_velocity" label="瞬时速度">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="speed" label="速率">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="acceleration_concept" label="加速度">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="uniformly_accelerated_linear_motion" label="匀变速直线运动">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="motion_graphs" label="运动图像">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="xt_graph" label="x-t 图像">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="vt_graph" label="v-t 图像">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="limit_method" label="极限思想">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="free_fall_motion" label="自由落体运动与科学推理">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Analyze"/>
+        </attvalues>
+      </node>
+      <node id="free_fall_definition" label="自由落体运动">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="gravity_acceleration" label="重力加速度">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="galileo_vs_aristotle" label="伽利略与亚里士多德的观点对比">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Analyze"/>
+        </attvalues>
+      </node>
+      <node id="air_resistance_effect" label="空气阻力对落体运动的影响">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Analyze"/>
+        </attvalues>
+      </node>
+      <node id="air_resistance" label="空气阻力">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="significance_of_galileo_experiments" label="伽利略实验的意义">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Evaluate"/>
+        </attvalues>
+      </node>
+      <node id="interaction_and_laws_of_motion" label="力与运动定律">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="common_forces_in_mechanics" label="常见的力">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="gravity" label="重力">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="elastic_force" label="弹力">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="friction" label="摩擦力">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="hookes_law" label="胡克定律">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="static_friction" label="静摩擦力">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="kinetic_friction" label="滑动摩擦力">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="friction_coefficient" label="动摩擦因数">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="force_composition_resolution" label="力的合成与分解">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Apply"/>
+        </attvalues>
+      </node>
+      <node id="force_as_vector" label="力是矢量">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="parallelogram_rule" label="平行四边形定则">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Apply"/>
+        </attvalues>
+      </node>
+      <node id="orthogonal_decomposition" label="正交分解法">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Apply"/>
+        </attvalues>
+      </node>
+      <node id="equilibrium_of_concurrent_forces" label="共点力平衡">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="newtons_laws_of_motion" label="牛顿运动定律">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Apply"/>
+        </attvalues>
+      </node>
+      <node id="newtons_first_law" label="牛顿第一定律">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="inertia" label="惯性">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="newtons_second_law" label="牛顿第二定律">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="resultant_force" label="合外力">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="newtons_third_law" label="牛顿第三定律">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="action_reaction_pair" label="作用力与反作用力">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="overweight_and_weightlessness" label="超重与失重">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="si_units_mechanics" label="单位制">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="international_system_of_units" label="国际单位制">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="base_units" label="基本单位">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="derived_units" label="导出单位">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="friction_application_prevention" label="摩擦力的应用与预防">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Apply"/>
+        </attvalues>
+      </node>
+      <node id="overweight_weightlessness_experience" label="超重与失重体验">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="acceleration_display_design" label="加速度显示装置设计">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Create"/>
+        </attvalues>
+      </node>
+      <node id="KP_Sensors" label="传感器">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="KP_CommonSensorPrinciples" label="常见传感器的功能与基本工作原理">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="KP_Photoresistor" label="光敏电阻">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="KP_Thermistor" label="热敏电阻">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="KP_HallElement" label="霍尔元件">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="KP_SensorApplications" label="传感器的应用">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="KP_HallEffect" label="霍尔效应">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="传感器在生活中的应用" label="传感器在生活中的应用">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="atomic_and_nuclear_physics" label="原子与原子核">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Analyze"/>
+        </attvalues>
+      </node>
+      <node id="atomic_structure_models" label="原子结构模型">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Analyze"/>
+        </attvalues>
+      </node>
+      <node id="rutherford_nuclear_model" label="卢瑟福核式结构模型">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="alpha_particle_scattering_experiment" label="α粒子散射实验">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="bohr_atomic_model" label="玻尔原子模型">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="atomic_spectra" label="原子光谱">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="hydrogen_atom_spectrum" label="氢原子光谱">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="energy_levels" label="能级">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="energy_level_transition" label="能级跃迁">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="atomic_nucleus" label="原子核">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="nucleon" label="核子">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="proton" label="质子">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="neutron" label="中子">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="mass_number" label="质量数">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="charge_number" label="电荷数">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="nuclear_reaction" label="核反应">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="nuclear_reaction_equation" label="核反应方程">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Apply"/>
+        </attvalues>
+      </node>
+      <node id="conservation_of_mass_number" label="质量数守恒">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="conservation_of_charge" label="电荷守恒">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="radioactivity" label="放射性">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="radioactive_decay" label="放射性衰变">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="alpha_decay" label="α衰变">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="beta_decay" label="β衰变">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="gamma_decay" label="γ衰变">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="half_life" label="半衰期">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="radioisotopes" label="放射性同位素">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="radiation_protection" label="辐射防护">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="nuclear_energy" label="核能">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="nuclear_fission" label="核裂变">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="chain_reaction" label="链式反应">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="nuclear_power_plant" label="核电站">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="nuclear_fusion" label="核聚变">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="thermonuclear_reaction" label="热核反应">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="sun_energy_source" label="太阳的能量来源">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="nuclear_waste" label="核废料">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="nuclear_safety" label="核安全">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="particle_physics" label="粒子物理学">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="wave_particle_duality" label="波粒二象性">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="photoelectric_effect" label="光电效应">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="einstein_photoelectric_equation" label="爱因斯坦光电效应方程">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="photon_concept" label="光子 (光量子)">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="work_function" label="逸出功">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="light_particle_nature" label="光的粒子性">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="matter_wave" label="物质波 (德布罗意波)">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="de_broglie_hypothesis" label="德布罗意假说">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="electron_diffraction_experiment" label="电子衍射实验">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="particle_wave_nature" label="粒子的波动性">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="quantization_concept" label="量子化">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="planck_hypothesis" label="普朗克量子假说">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="heisenberg_uncertainty_principle" label="不确定性原理">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="quantum_technology" label="量子技术">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="uncertainty_principle" label="不确定性原理">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="solids_liquids_gases_theme" label="固体、液体和气体">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Analyze"/>
+        </attvalues>
+      </node>
+      <node id="molecular_kinetic_theory" label="分子动理论">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="molecular_size_estimation" label="分子大小估测">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Apply"/>
+        </attvalues>
+      </node>
+      <node id="oil_film_experiment" label="油膜法实验">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Apply"/>
+        </attvalues>
+      </node>
+      <node id="diffusion" label="扩散现象">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="brownian_motion" label="布朗运动">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="intermolecular_forces" label="分子间作用力">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="crystal_and_amorphous" label="晶体与非晶体">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="liquid_crystal" label="液晶">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="surface_tension" label="液体表面张力">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="capillarity" label="毛细现象">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="gas_experimental_laws" label="气体实验定律">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="ideal_gas_model" label="理想气体模型">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="ideal_gas_law" label="理想气体状态方程">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="thermodynamic_laws_theme" label="热力学定律">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="first_law_of_thermodynamics" label="热力学第一定律">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="internal_energy" label="内能">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="work_and_heat_in_thermodynamics" label="做功与热传递">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="second_law_of_thermodynamics" label="热力学第二定律">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="directionality_of_thermal_processes" label="宏观过程的方向性">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="entropy" label="熵">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="perpetual_motion_machine" label="永动机">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="first_kind_perpetual_motion_machine" label="第一类永动机">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="second_kind_perpetual_motion_machine" label="第二类永动机">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="physics_and_medical_tech_theme" label="物理学与医疗技术">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Apply"/>
+        </attvalues>
+      </node>
+      <node id="ultrasound_imaging" label="超声成像 (B超)">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="color_doppler_ultrasound" label="彩色多普勒超声 (彩超)">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="x_ray_computed_tomography" label="X射线计算机断层扫描 (CT)">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="radiotherapy" label="放射治疗 (放疗)">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="medical_radiation_protection" label="医疗辐射防护">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="physics_and_new_energy_theme" label="物理学与新能源">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Evaluate"/>
+        </attvalues>
+      </node>
+      <node id="necessity_of_renewable_energy" label="可再生能源开发的必要性">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Evaluate"/>
+        </attvalues>
+      </node>
+      <node id="solar_energy_utilization_tech" label="太阳能利用技术">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="photovoltaic_power_generation" label="光伏发电">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="photothermal_conversion" label="光热转换">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="nuclear_energy_potential_and_risk" label="核能的潜力与风险">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Analyze"/>
+        </attvalues>
+      </node>
+      <node id="international_nuclear_accidents" label="国际核事故案例分析">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Analyze"/>
+        </attvalues>
+      </node>
+      <node id="physics_and_new_materials_theme" label="物理学与新材料">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Analyze"/>
+        </attvalues>
+      </node>
+      <node id="nanomaterials" label="纳米材料">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="superconducting_materials" label="超导材料">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="zero_resistance" label="零电阻效应">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="meissner_effect" label="迈斯纳效应">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="functional_materials" label="功能材料">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="sensors_theme" label="传感器">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="sensor_working_principle" label="传感器工作原理">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="photoresistor" label="光敏电阻">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="thermistor" label="热敏电阻">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+      <node id="hall_element" label="霍尔元件">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="hall_effect" label="霍尔效应">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Remember"/>
+        </attvalues>
+      </node>
+      <node id="sensor_applications_in_life" label="传感器在生活中的应用">
+        <attvalues>
+          <attvalue for="0" value="Physics"/>
+          <attvalue for="1" value="Understand"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="set_concepts_and_representation" target="preparatory_knowledge" label="is_a_subtopic_of" type="directed"/>
+      <edge source="set_relations_and_operations" target="preparatory_knowledge" label="is_a_subtopic_of" type="directed"/>
+      <edge source="common_logical_language" target="preparatory_knowledge" label="is_a_subtopic_of" type="directed"/>
+      <edge source="basic_properties_of_inequalities" target="preparatory_knowledge" label="is_a_subtopic_of" type="directed"/>
+      <edge source="quadratic_equation_and_inequality" target="preparatory_knowledge" label="is_a_subtopic_of" type="directed"/>
+      <edge source="equation_function_connection" target="preparatory_knowledge" label="is_a_subtopic_of" type="directed"/>
+      <edge source="proposition_negation_and_contrapositive" target="common_logical_language" label="is_a_subtopic_of" type="directed"/>
+      <edge source="symbolic_language_and_expression_standards" target="preparatory_knowledge" label="is_a_subtopic_of" type="directed"/>
+      <edge source="function_definition_and_elements" target="function_theme" label="is_a_subtopic_of" type="directed"/>
+      <edge source="function_representation_methods" target="function_theme" label="is_a_subtopic_of" type="directed"/>
+      <edge source="piecewise_function" target="function_theme" label="is_a_subtopic_of" type="directed"/>
+      <edge source="function_properties" target="function_theme" label="is_a_subtopic_of" type="directed"/>
+      <edge source="monotonicity_and_extrema" target="function_properties" label="is_a_subtopic_of" type="directed"/>
+      <edge source="parity_and_periodicity" target="function_properties" label="is_a_subtopic_of" type="directed"/>
+      <edge source="elementary_functions" target="function_theme" label="is_a_subtopic_of" type="directed"/>
+      <edge source="power_function" target="elementary_functions" label="is_a_subtopic_of" type="directed"/>
+      <edge source="exponential_and_logarithmic_functions" target="elementary_functions" label="is_a_subtopic_of" type="directed"/>
+      <edge source="trigonometric_functions_and_identities" target="elementary_functions" label="is_a_subtopic_of" type="directed"/>
+      <edge source="bisection_method" target="function_theme" label="is_a_subtopic_of" type="directed"/>
+      <edge source="trigonometric_function_graphs_and_properties" target="elementary_functions" label="is_a_subtopic_of" type="directed"/>
+      <edge source="trigonometric_function_graphs_and_properties" target="trigonometric_functions_and_identities" label="is_based_on" type="directed"/>
+      <edge source="sine_function_graph_properties" target="trigonometric_function_graphs_and_properties" label="is_part_of" type="directed"/>
+      <edge source="cosine_function_graph_properties" target="trigonometric_function_graphs_and_properties" label="is_part_of" type="directed"/>
+      <edge source="tangent_function_graph_properties" target="trigonometric_function_graphs_and_properties" label="is_part_of" type="directed"/>
+      <edge source="sine_function_graph_properties" target="sine_cosine_tangent" label="visualizes_and_analyzes" type="directed"/>
+      <edge source="cosine_function_graph_properties" target="sine_cosine_tangent" label="visualizes_and_analyzes" type="directed"/>
+      <edge source="tangent_function_graph_properties" target="sine_cosine_tangent" label="visualizes_and_analyzes" type="directed"/>
+      <edge source="function_y_Asin_omega_x_phi" target="trigonometric_function_graphs_and_properties" label="is_an_extension_of" type="directed"/>
+      <edge source="function_y_Asin_omega_x_phi" target="sine_function_graph_properties" label="is_a_transformation_of" type="directed"/>
+      <edge source="cosine_function_graph_properties" target="sine_function_graph_properties" label="is_related_to" type="directed"/>
+      <edge source="bisection_method" target="function_zero" label="approximates" type="directed"/>
+      <edge source="set_definition" target="set_concepts_and_representation" label="is_part_of" type="directed"/>
+      <edge source="element_set_membership" target="set_concepts_and_representation" label="is_part_of" type="directed"/>
+      <edge source="set_representation_methods" target="set_concepts_and_representation" label="is_part_of" type="directed"/>
+      <edge source="special_sets" target="set_concepts_and_representation" label="is_part_of" type="directed"/>
+      <edge source="roster_method" target="set_representation_methods" label="is_a_type_of" type="directed"/>
+      <edge source="set_builder_notation" target="set_representation_methods" label="is_a_type_of" type="directed"/>
+      <edge source="empty_set" target="special_sets" label="is_a_type_of" type="directed"/>
+      <edge source="universal_set" target="special_sets" label="is_a_type_of" type="directed"/>
+      <edge source="set_concepts_and_representation" target="preparatory_knowledge" label="is_part_of" type="directed"/>
+      <edge source="set_relations_and_operations" target="preparatory_knowledge" label="is_part_of" type="directed"/>
+      <edge source="set_concepts_and_representation" target="set_relations_and_operations" label="is_prerequisite_for" type="directed"/>
+      <edge source="set_relations" target="set_relations_and_operations" label="is_part_of" type="directed"/>
+      <edge source="set_operations" target="set_relations_and_operations" label="is_part_of" type="directed"/>
+      <edge source="subset_relation" target="set_relations" label="is_a_type_of" type="directed"/>
+      <edge source="proper_subset_relation" target="subset_relation" label="is_a_special_case_of" type="directed"/>
+      <edge source="set_equality" target="set_relations" label="is_a_type_of" type="directed"/>
+      <edge source="union_operation" target="set_operations" label="is_a_type_of" type="directed"/>
+      <edge source="intersection_operation" target="set_operations" label="is_a_type_of" type="directed"/>
+      <edge source="complement_operation" target="set_operations" label="is_a_type_of" type="directed"/>
+      <edge source="venn_diagram" target="set_relations_and_operations" label="is_visualization_of" type="directed"/>
+      <edge source="common_logical_language" target="preparatory_knowledge" label="is_part_of" type="directed"/>
+      <edge source="proposition" target="common_logical_language" label="is_foundational_concept_of" type="directed"/>
+      <edge source="proposition_truth_value" target="proposition" label="is_a_property_of" type="directed"/>
+      <edge source="conditional_statements" target="common_logical_language" label="is_part_of" type="directed"/>
+      <edge source="sufficient_condition" target="conditional_statements" label="is_a_type_of" type="directed"/>
+      <edge source="necessary_condition" target="conditional_statements" label="is_a_type_of" type="directed"/>
+      <edge source="biconditional_statement" target="conditional_statements" label="is_a_type_of" type="directed"/>
+      <edge source="quantifiers" target="common_logical_language" label="is_part_of" type="directed"/>
+      <edge source="universal_quantifier" target="quantifiers" label="is_a_type_of" type="directed"/>
+      <edge source="existential_quantifier" target="quantifiers" label="is_a_type_of" type="directed"/>
+      <edge source="basic_properties_of_inequalities" target="preparatory_knowledge" label="is_part_of" type="directed"/>
+      <edge source="inequality_symmetry" target="basic_properties_of_inequalities" label="is_a_property_of" type="directed"/>
+      <edge source="inequality_transitivity" target="basic_properties_of_inequalities" label="is_a_property_of" type="directed"/>
+      <edge source="inequality_additivity" target="basic_properties_of_inequalities" label="is_a_property_of" type="directed"/>
+      <edge source="inequality_multiplicativity" target="basic_properties_of_inequalities" label="is_a_property_of" type="directed"/>
+      <edge source="inequality_division" target="inequality_multiplicativity" label="is_a_corollary_of" type="directed"/>
+      <edge source="am_gm_inequality" target="basic_properties_of_inequalities" label="is_a_key_theorem_in" type="directed"/>
+      <edge source="quadratic_equation_and_inequality" target="preparatory_knowledge" label="is_part_of" type="directed"/>
+      <edge source="quadratic_equation_analysis" target="quadratic_equation_and_inequality" label="is_part_of" type="directed"/>
+      <edge source="quadratic_inequality_solving" target="quadratic_equation_and_inequality" label="is_part_of" type="directed"/>
+      <edge source="quadratic_function_perspective" target="quadratic_equation_and_inequality" label="is_foundational_approach_for" type="directed"/>
+      <edge source="equation_roots_and_graph_intercepts" target="quadratic_equation_analysis" label="explains" type="directed"/>
+      <edge source="equation_roots_and_graph_intercepts" target="quadratic_function_perspective" label="is_an_application_of" type="directed"/>
+      <edge source="solve_inequality_by_graph_position" target="quadratic_inequality_solving" label="is_a_method_for" type="directed"/>
+      <edge source="solve_inequality_by_graph_position" target="quadratic_function_perspective" label="is_an_application_of" type="directed"/>
+      <edge source="equation_function_connection" target="preparatory_knowledge" label="is_part_of" type="directed"/>
+      <edge source="function_zero" target="equation_function_connection" label="is_a_key_concept_in" type="directed"/>
+      <edge source="function_zero" target="equation_roots_and_graph_intercepts" label="is_equivalent_to" type="directed"/>
+      <edge source="intermediate_value_theorem" target="function_zero" label="proves_existence_of" type="directed"/>
+      <edge source="monotonicity_and_solution_uniqueness" target="function_zero" label="determines_uniqueness_of" type="directed"/>
+      <edge source="proposition_negation_and_contrapositive" target="common_logical_language" label="is_a_subtopic_of" type="directed"/>
+      <edge source="negation_of_a_proposition" target="proposition_negation_and_contrapositive" label="is_part_of" type="directed"/>
+      <edge source="contrapositive_proposition" target="proposition_negation_and_contrapositive" label="is_part_of" type="directed"/>
+      <edge source="negation_of_a_proposition" target="proposition" label="is_an_operation_on" type="directed"/>
+      <edge source="negation_of_quantified_propositions" target="negation_of_a_proposition" label="is_a_specific_application_of" type="directed"/>
+      <edge source="negation_of_quantified_propositions" target="quantifiers" label="is_related_to" type="directed"/>
+      <edge source="contrapositive_proposition" target="conditional_statements" label="is_a_transformation_of" type="directed"/>
+      <edge source="contrapositive_equivalence" target="contrapositive_proposition" label="is_a_key_property_of" type="directed"/>
+      <edge source="symbolic_language_and_expression_standards" target="preparatory_knowledge" label="is_part_of" type="directed"/>
+      <edge source="correct_symbol_writing" target="symbolic_language_and_expression_standards" label="is_a_component_of" type="directed"/>
+      <edge source="natural_symbolic_language_conversion" target="symbolic_language_and_expression_standards" label="is_a_component_of" type="directed"/>
+      <edge source="correct_symbol_writing" target="subset_relation" label="regulates" type="directed"/>
+      <edge source="correct_symbol_writing" target="proper_subset_relation" label="regulates" type="directed"/>
+      <edge source="natural_symbolic_language_conversion" target="existential_quantifier" label="applies_to" type="directed"/>
+      <edge source="function_definition_and_elements" target="function_theme" label="is_foundational_concept_of" type="directed"/>
+      <edge source="set_concepts_and_representation" target="function_definition_and_elements" label="is_prerequisite_for" type="directed"/>
+      <edge source="mapping_concept" target="function_definition_and_elements" label="is_foundational_concept_for" type="directed"/>
+      <edge source="function_three_elements" target="function_definition_and_elements" label="is_part_of" type="directed"/>
+      <edge source="domain" target="function_three_elements" label="is_a_component_of" type="directed"/>
+      <edge source="range" target="function_three_elements" label="is_a_component_of" type="directed"/>
+      <edge source="correspondence_rule" target="function_three_elements" label="is_a_component_of" type="directed"/>
+      <edge source="function_representation_methods" target="function_theme" label="is_a_subtopic_of" type="directed"/>
+      <edge source="function_representation_methods" target="correspondence_rule" label="expresses" type="directed"/>
+      <edge source="analytical_method" target="function_representation_methods" label="is_a_type_of" type="directed"/>
+      <edge source="tabular_method" target="function_representation_methods" label="is_a_type_of" type="directed"/>
+      <edge source="graphical_method" target="function_representation_methods" label="is_a_type_of" type="directed"/>
+      <edge source="piecewise_function" target="function_theme" label="is_a_subtopic_of" type="directed"/>
+      <edge source="piecewise_function_definition" target="piecewise_function" label="defines" type="directed"/>
+      <edge source="piecewise_function_application" target="piecewise_function" label="is_an_application_of" type="directed"/>
+      <edge source="piecewise_function" target="analytical_method" label="is_a_special_case_of" type="directed"/>
+      <edge source="function_properties" target="function_theme" label="is_a_subtopic_of" type="directed"/>
+      <edge source="monotonicity_and_extrema" target="function_properties" label="is_part_of" type="directed"/>
+      <edge source="monotonicity" target="monotonicity_and_extrema" label="is_a_key_concept_in" type="directed"/>
+      <edge source="bisection_method" target="function_zero" label="approximates" type="directed"/>
+      <edge source="trigonometric_function_graphs_and_properties" target="elementary_functions" label="is_a_subtopic_of" type="directed"/>
+      <edge source="trigonometric_function_graphs_and_properties" target="trigonometric_functions_and_identities" label="is_based_on" type="directed"/>
+      <edge source="sine_function_graph_properties" target="trigonometric_function_graphs_and_properties" label="is_part_of" type="directed"/>
+      <edge source="cosine_function_graph_properties" target="trigonometric_function_graphs_and_properties" label="is_part_of" type="directed"/>
+      <edge source="tangent_function_graph_properties" target="trigonometric_function_graphs_and_properties" label="is_part_of" type="directed"/>
+      <edge source="sine_function_graph_properties" target="sine_cosine_tangent" label="visualizes_and_analyzes" type="directed"/>
+      <edge source="cosine_function_graph_properties" target="sine_cosine_tangent" label="visualizes_and_analyzes" type="directed"/>
+      <edge source="tangent_function_graph_properties" target="sine_cosine_tangent" label="visualizes_and_analyzes" type="directed"/>
+      <edge source="function_y_Asin_omega_x_phi" target="trigonometric_function_graphs_and_properties" label="is_an_extension_of" type="directed"/>
+      <edge source="function_y_Asin_omega_x_phi" target="sine_function_graph_properties" label="is_a_transformation_of" type="directed"/>
+      <edge source="cosine_function_graph_properties" target="sine_function_graph_properties" label="is_related_to" type="directed"/>
+      <edge source="mechanical_energy_and_conservation" target="interaction_and_laws_of_motion" label="builds_upon" type="directed"/>
+      <edge source="work_and_power" target="mechanical_energy_and_conservation" label="is_a_subtopic_of" type="directed"/>
+      <edge source="work" target="work_and_power" label="is_part_of" type="directed"/>
+      <edge source="work" target="common_forces_in_mechanics" label="is_done_by" type="directed"/>
+      <edge source="work" target="displacement_and_distance" label="is_related_to" type="directed"/>
+      <edge source="positive_and_negative_work" target="work" label="is_a_property_of" type="directed"/>
+      <edge source="total_work" target="work" label="is_a_summation_of" type="directed"/>
+      <edge source="power" target="work_and_power" label="is_part_of" type="directed"/>
+      <edge source="power" target="work" label="describes_the_rate_of" type="directed"/>
+      <edge source="average_power" target="power" label="is_a_type_of" type="directed"/>
+      <edge source="instantaneous_power" target="power" label="is_a_type_of" type="directed"/>
+      <edge source="instantaneous_power" target="instantaneous_velocity" label="is_related_to" type="directed"/>
+      <edge source="work_energy_theorem" target="mechanical_energy_and_conservation" label="is_a_subtopic_of" type="directed"/>
+      <edge source="kinetic_energy" target="work_energy_theorem" label="is_the_core_concept_of" type="directed"/>
+      <edge source="work_energy_theorem" target="total_work" label="relates_to" type="directed"/>
+      <edge source="work_energy_theorem" target="newtons_second_law" label="is_derived_from" type="directed"/>
+      <edge source="potential_energy" target="mechanical_energy_and_conservation" label="is_a_subtopic_of" type="directed"/>
+      <edge source="gravitational_potential_energy" target="potential_energy" label="is_a_type_of" type="directed"/>
+      <edge source="elastic_potential_energy" target="potential_energy" label="is_a_type_of" type="directed"/>
+      <edge source="work_done_by_gravity" target="gravitational_potential_energy" label="is_related_to_the_change_in" type="directed"/>
+      <edge source="work_done_by_gravity" target="gravity" label="is_the_work_done_by" type="directed"/>
+      <edge source="elastic_potential_energy" target="elastic_force" label="is_stored_by" type="directed"/>
+      <edge source="law_of_conservation_of_mechanical_energy" target="mechanical_energy_and_conservation" label="is_a_subtopic_of" type="directed"/>
+      <edge source="mechanical_energy" target="law_of_conservation_of_mechanical_energy" label="is_the_conserved_quantity_in" type="directed"/>
+      <edge source="mechanical_energy" target="kinetic_energy" label="is_the_sum_of" type="directed"/>
+      <edge source="mechanical_energy" target="potential_energy" label="is_the_sum_of" type="directed"/>
+      <edge source="conditions_for_mechanical_energy_conservation" target="law_of_conservation_of_mechanical_energy" label="defines_the_applicability_of" type="directed"/>
+      <edge source="conservative_force" target="conditions_for_mechanical_energy_conservation" label="is_a_key_concept_for" type="directed"/>
+      <edge source="non_conservative_force" target="conditions_for_mechanical_energy_conservation" label="is_a_key_concept_for" type="directed"/>
+      <edge source="verification_of_mechanical_energy_conservation" target="law_of_conservation_of_mechanical_energy" label="is_an_experimental_validation_of" type="directed"/>
+      <edge source="law_of_conservation_of_mechanical_energy" target="work_energy_theorem" label="is_a_special_case_of" type="directed"/>
+      <edge source="work_energy_theorem_application_research" target="work_energy_theorem" label="is_about_the_application_of" type="directed"/>
+      <edge source="limitations_of_newtonian_mechanics_and_relativity" target="interaction_and_laws_of_motion" label="is_a_critique_and_extension_of" type="directed"/>
+      <edge source="limitations_of_newtonian_mechanics" target="limitations_of_newtonian_mechanics_and_relativity" label="is_a_subtopic_of" type="directed"/>
+      <edge source="limitations_of_newtonian_mechanics" target="newtons_laws_of_motion" label="defines_applicability_of" type="directed"/>
+      <edge source="high_speed_limit" target="limitations_of_newtonian_mechanics" label="is_a_limitation_domain" type="directed"/>
+      <edge source="strong_gravity_limit" target="limitations_of_newtonian_mechanics" label="is_a_limitation_domain" type="directed"/>
+      <edge source="introduction_to_relativity" target="limitations_of_newtonian_mechanics_and_relativity" label="is_a_subtopic_of" type="directed"/>
+      <edge source="special_relativity" target="introduction_to_relativity" label="is_a_branch_of" type="directed"/>
+      <edge source="general_relativity" target="introduction_to_relativity" label="is_a_branch_of" type="directed"/>
+      <edge source="time_dilation" target="special_relativity" label="is_a_core_concept_of" type="directed"/>
+      <edge source="length_contraction" target="special_relativity" label="is_a_core_concept_of" type="directed"/>
+      <edge source="mass_energy_equivalence" target="special_relativity" label="is_a_core_concept_of" type="directed"/>
+      <edge source="twin_paradox" target="time_dilation" label="is_a_thought_experiment_for" type="directed"/>
+      <edge source="spacetime_curvature" target="general_relativity" label="is_the_core_concept_of" type="directed"/>
+      <edge source="spacetime_curvature" target="gravity" label="is_a_new_interpretation_of" type="directed"/>
+      <edge source="introduction_to_cosmology" target="limitations_of_newtonian_mechanics_and_relativity" label="is_a_subtopic_of" type="directed"/>
+      <edge source="introduction_to_cosmology" target="general_relativity" label="is_an_application_domain_of" type="directed"/>
+      <edge source="big_bang_theory" target="introduction_to_cosmology" label="is_the_standard_model_of" type="directed"/>
+      <edge source="stellar_evolution" target="introduction_to_cosmology" label="is_a_topic_in" type="directed"/>
+      <edge source="discussion_on_relativistic_spacetime" target="introduction_to_relativity" label="is_a_learning_activity_for" type="directed"/>
+      <edge source="exploration_of_cosmic_evolution" target="introduction_to_cosmology" label="is_a_learning_activity_for" type="directed"/>
+      <edge source="electrostatic_field_theme" target="point_mass_model_construction" label="uses_similar_methodology_as" type="directed"/>
+      <edge source="electrostatic_phenomenon_and_charge_conservation" target="electrostatic_field_theme" label="is_a_subtopic_of" type="directed"/>
+      <edge source="charging_by_friction" target="electrostatic_phenomenon_and_charge_conservation" label="is_a_type_of" type="directed"/>
+      <edge source="charging_by_induction" target="electrostatic_phenomenon_and_charge_conservation" label="is_a_type_of" type="directed"/>
+      <edge source="atomic_structure_explanation" target="electrostatic_phenomenon_and_charge_conservation" label="explains_the_microscopic_origin_of" type="directed"/>
+      <edge source="law_of_conservation_of_charge" target="electrostatic_phenomenon_and_charge_conservation" label="is_a_fundamental_law_governing" type="directed"/>
+      <edge source="point_charge_model_and_coulombs_law" target="electrostatic_field_theme" label="is_a_subtopic_of" type="directed"/>
+      <edge source="point_charge_model" target="point_charge_model_and_coulombs_law" label="is_a_core_concept_of" type="directed"/>
+      <edge source="point_charge_model" target="physical_model" label="is_a_type_of" type="directed"/>
+      <edge source="coulombs_law" target="point_charge_model_and_coulombs_law" label="is_a_core_concept_of" type="directed"/>
+      <edge source="coulomb_torsion_balance" target="coulombs_law" label="is_the_experimental_basis_for" type="directed"/>
+      <edge source="electric_field_strength_and_lines" target="electrostatic_field_theme" label="is_a_subtopic_of" type="directed"/>
+      <edge source="electric_field" target="electric_field_strength_and_lines" label="is_the_central_concept_of" type="directed"/>
+      <edge source="electric_field_strength" target="electric_field" label="describes_the_property_of" type="directed"/>
+      <edge source="electric_field_lines" target="electric_field" label="is_a_tool_to_visualize" type="directed"/>
+      <edge source="superposition_of_electric_fields" target="electric_field_strength" label="is_a_principle_for_calculating" type="directed"/>
+      <edge source="electric_potential_energy_and_difference" target="electrostatic_field_theme" label="is_a_subtopic_of" type="directed"/>
+      <edge source="electric_potential_energy" target="electric_potential_energy_and_difference" label="is_a_core_concept_of" type="directed"/>
+      <edge source="work_done_by_electric_field" target="electric_potential_energy" label="is_related_to_the_change_in" type="directed"/>
+      <edge source="electric_potential" target="electric_potential_energy_and_difference" label="is_a_core_concept_of" type="directed"/>
+      <edge source="electric_potential_difference" target="electric_potential_energy_and_difference" label="is_a_core_concept_of" type="directed"/>
+      <edge source="equipotential_surface" target="electric_potential" label="is_a_locus_of_points_with_constant" type="directed"/>
+      <edge source="relation_between_E_and_U_in_uniform_field" target="electric_field_strength" label="is_related_to" type="directed"/>
+      <edge source="relation_between_E_and_U_in_uniform_field" target="electric_potential_difference" label="is_related_to" type="directed"/>
+      <edge source="charged_particle_motion_in_efield" target="electric_field" label="is_an_application_of" type="directed"/>
+      <edge source="capacitor_and_its_application" target="electrostatic_field_theme" label="is_a_subtopic_of" type="directed"/>
+      <edge source="capacitor" target="capacitor_and_its_application" label="is_the_core_device_of" type="directed"/>
+      <edge source="capacitance" target="capacitor" label="is_a_property_of" type="directed"/>
+      <edge source="capacitor_charging_discharging" target="capacitor" label="are_the_basic_processes_of" type="directed"/>
+      <edge source="electrostatic_application_and_prevention_theme" target="electrostatic_field_theme" label="is_a_subtopic_of" type="directed"/>
+      <edge source="electrostatic_application" target="electrostatic_application_and_prevention_theme" label="is_part_of" type="directed"/>
+      <edge source="electrostatic_prevention" target="electrostatic_application_and_prevention_theme" label="is_part_of" type="directed"/>
+      <edge source="lightning_rod_principle" target="electrostatic_prevention" label="is_an_example_of" type="directed"/>
+      <edge source="electrostatic_prevention_and_application" target="electrostatic_phenomenon_and_charge_conservation" label="is_a_practical_application_of" type="directed"/>
+      <edge source="circuits_and_applications_theme" target="electrostatic_field_theme" label="is_an_application_of" type="directed"/>
+      <edge source="ohms_law" target="circuits_and_applications_theme" label="is_a_fundamental_law_in" type="directed"/>
+      <edge source="ohms_law_partial_circuit" target="ohms_law" label="is_a_specific_case_of" type="directed"/>
+      <edge source="resistance_and_resistivity" target="ohms_law_partial_circuit" label="is_a_key_concept_in" type="directed"/>
+      <edge source="series_and_parallel_circuits" target="circuits_and_applications_theme" label="is_a_subtopic_of" type="directed"/>
+      <edge source="series_circuit_rules" target="series_and_parallel_circuits" label="describes_characteristics_of" type="directed"/>
+      <edge source="parallel_circuit_rules" target="series_and_parallel_circuits" label="describes_characteristics_of" type="directed"/>
+      <edge source="ohms_law_closed_circuit" target="ohms_law" label="is_a_generalization_of" type="directed"/>
+      <edge source="electromotive_force_and_internal_resistance" target="ohms_law_closed_circuit" label="are_key_concepts_in" type="directed"/>
+      <edge source="electrical_work_power_joules_law" target="circuits_and_applications_theme" label="is_a_subtopic_of" type="directed"/>
+      <edge source="electrical_work" target="electrical_work_power_joules_law" label="is_a_concept_within" type="directed"/>
+      <edge source="electrical_power" target="electrical_work_power_joules_law" label="is_a_concept_within" type="directed"/>
+      <edge source="joules_law" target="electrical_work_power_joules_law" label="is_a_law_within" type="directed"/>
+      <edge source="distinction_between_pure_and_non_pure_resistor_circuits" target="electrical_work_power_joules_law" label="is_an_important_distinction_for" type="directed"/>
+      <edge source="use_of_multimeter" target="circuits_and_applications_theme" label="is_a_practical_skill_for" type="directed"/>
+      <edge source="logic_circuits_and_gates" target="circuits_and_applications_theme" label="is_an_introduction_to_digital_circuits_within" type="directed"/>
+      <edge source="magnetic_field_theme" target="circuits_and_applications_theme" label="is_a_related_field_to" type="directed"/>
+      <edge source="magnetic_phenomena_and_magnetic_field" target="magnetic_field_theme" label="is_a_subtopic_of" type="directed"/>
+      <edge source="magnetic_field" target="magnetic_phenomena_and_magnetic_field" label="is_the_core_concept_of" type="directed"/>
+      <edge source="magnetic_field_lines" target="magnetic_field" label="is_a_tool_to_visualize" type="directed"/>
+      <edge source="magnetic_induction_strength" target="magnetic_field" label="describes_the_property_of" type="directed"/>
+      <edge source="oersteds_experiment" target="magnetic_phenomena_and_magnetic_field" label="demonstrates" type="directed"/>
+      <edge source="magnetic_field_around_straight_current" target="magnetic_phenomena_and_magnetic_field" label="is_an_example_of" type="directed"/>
+      <edge source="amperes_rule_right_hand_screw_rule" target="magnetic_field_around_straight_current" label="determines_the_direction_of" type="directed"/>
+      <edge source="amperes_force_on_current" target="magnetic_field_theme" label="is_a_subtopic_of" type="directed"/>
+      <edge source="amperes_force" target="amperes_force_on_current" label="is_the_core_concept_of" type="directed"/>
+      <edge source="left_hand_rule" target="amperes_force" label="determines_the_direction_of" type="directed"/>
+      <edge source="application_of_amperes_force" target="amperes_force" label="is_an_application_of" type="directed"/>
+      <edge source="lorentz_force_on_moving_charge" target="magnetic_field_theme" label="is_a_subtopic_of" type="directed"/>
+      <edge source="lorentz_force" target="lorentz_force_on_moving_charge" label="is_the_core_concept_of" type="directed"/>
+      <edge source="lorentz_force" target="amperes_force" label="is_the_microscopic_origin_of" type="directed"/>
+      <edge source="left_hand_rule" target="lorentz_force" label="determines_the_direction_of" type="directed"/>
+      <edge source="charged_particle_motion_in_magnetic_field" target="lorentz_force" label="is_an_application_of" type="directed"/>
+      <edge source="cyclotron_and_mass_spectrometer" target="charged_particle_motion_in_magnetic_field" label="are_applications_of" type="directed"/>
+      <edge source="electromagnetic_induction_theme" target="magnetic_field_theme" label="is_a_related_field_to" type="directed"/>
+      <edge source="phenomenon_of_electromagnetic_induction" target="electromagnetic_induction_theme" label="is_a_subtopic_of" type="directed"/>
+      <edge source="magnetic_flux" target="phenomenon_of_electromagnetic_induction" label="is_a_key_concept_for" type="directed"/>
+      <edge source="faradays_law_of_induction" target="electromagnetic_induction_theme" label="is_a_fundamental_law_in" type="directed"/>
+      <edge source="induced_electromotive_force" target="faradays_law_of_induction" label="is_quantified_by" type="directed"/>
+      <edge source="lenzs_law" target="electromagnetic_induction_theme" label="is_a_rule_in" type="directed"/>
+      <edge source="lenzs_law" target="law_of_conservation_of_energy" label="is_a_manifestation_of" type="directed"/>
+      <edge source="right_hand_rule" target="faradays_law_of_induction" label="is_a_tool_to_determine_direction_in" type="directed"/>
+      <edge source="alternating_current_generation" target="electromagnetic_induction_theme" label="is_an_application_of" type="directed"/>
+      <edge source="alternating_current" target="alternating_current_generation" label="is_the_output_of" type="directed"/>
+      <edge source="transformer" target="electromagnetic_induction_theme" label="is_an_application_of" type="directed"/>
+      <edge source="ideal_transformer" target="transformer" label="is_an_idealized_model_of" type="directed"/>
+      <edge source="long_distance_power_transmission" target="transformer" label="is_a_key_application_of" type="directed"/>
+      <edge source="self_induction_and_inductors" target="electromagnetic_induction_theme" label="is_a_subtopic_of" type="directed"/>
+      <edge source="self_induction" target="self_induction_and_inductors" label="is_the_core_concept_of" type="directed"/>
+      <edge source="inductor" target="self_induction_and_inductors" label="is_a_device_based_on" type="directed"/>
+      <edge source="electromagnetic_field_and_waves_theme" target="electromagnetic_induction_theme" label="is_a_unification_of" type="directed"/>
+      <edge source="electromagnetic_field_and_waves_theme" target="magnetic_field_theme" label="is_a_unification_of" type="directed"/>
+      <edge source="maxwells_electromagnetic_theory" target="electromagnetic_field_and_waves_theme" label="is_the_fundamental_theory_of" type="directed"/>
+      <edge source="changing_magnetic_field_creates_electric_field" target="maxwells_electromagnetic_theory" label="is_a_core_idea_of" type="directed"/>
+      <edge source="changing_electric_field_creates_magnetic_field" target="maxwells_electromagnetic_theory" label="is_a_core_idea_of" type="directed"/>
+      <edge source="electromagnetic_wave" target="maxwells_electromagnetic_theory" label="is_a_prediction_of" type="directed"/>
+      <edge source="properties_of_em_waves" target="electromagnetic_wave" label="describes" type="directed"/>
+      <edge source="hertzs_experiment" target="electromagnetic_wave" label="experimentally_verified" type="directed"/>
+      <edge source="electromagnetic_spectrum" target="electromagnetic_field_and_waves_theme" label="is_a_subtopic_of" type="directed"/>
+      <edge source="radio_waves" target="electromagnetic_spectrum" label="is_part_of" type="directed"/>
+      <edge source="microwaves" target="electromagnetic_spectrum" label="is_part_of" type="directed"/>
+      <edge source="infrared" target="electromagnetic_spectrum" label="is_part_of" type="directed"/>
+      <edge source="visible_light" target="electromagnetic_spectrum" label="is_part_of" type="directed"/>
+      <edge source="ultraviolet" target="electromagnetic_spectrum" label="is_part_of" type="directed"/>
+      <edge source="x_rays" target="electromagnetic_spectrum" label="is_part_of" type="directed"/>
+      <edge source="gamma_rays" target="electromagnetic_spectrum" label="is_part_of" type="directed"/>
+      <edge source="em_waves_and_information_technology" target="electromagnetic_field_and_waves_theme" label="is_an_application_domain_of" type="directed"/>
+      <edge source="energy_and_sustainability_theme" target="mechanical_energy_and_conservation" label="is_an_extension_of" type="directed"/>
+      <edge source="energy_and_its_forms" target="energy_and_sustainability_theme" label="is_a_subtopic_of" type="directed"/>
+      <edge source="law_of_conservation_of_energy_global" target="energy_and_sustainability_theme" label="is_a_fundamental_law_in" type="directed"/>
+      <edge source="law_of_conservation_of_energy_global" target="law_of_conservation_of_mechanical_energy" label="is_a_generalization_of" type="directed"/>
+      <edge source="energy_conversion_and_utilization" target="energy_and_sustainability_theme" label="is_a_subtopic_of" type="directed"/>
+      <edge source="primary_and_secondary_energy" target="energy_and_its_forms" label="is_a_classification_of" type="directed"/>
+      <edge source="renewable_and_non_renewable_energy" target="energy_and_its_forms" label="is_a_classification_of" type="directed"/>
+      <edge source="fossil_fuels" target="renewable_and_non_renewable_energy" label="is_a_type_of_non_renewable" type="directed"/>
+      <edge source="nuclear_energy" target="renewable_and_non_renewable_energy" label="is_a_type_of_non_renewable" type="directed"/>
+      <edge source="solar_energy" target="renewable_and_non_renewable_energy" label="is_a_type_of_renewable" type="directed"/>
+      <edge source="wind_energy" target="renewable_and_non_renewable_energy" label="is_a_type_of_renewable" type="directed"/>
+      <edge source="hydro_energy" target="renewable_and_non_renewable_energy" label="is_a_type_of_renewable" type="directed"/>
+      <edge source="environmental_impact_of_energy_use" target="energy_conversion_and_utilization" label="is_a_consequence_of" type="directed"/>
+      <edge source="greenhouse_effect" target="environmental_impact_of_energy_use" label="is_an_example_of" type="directed"/>
+      <edge source="greenhouse_effect" target="fossil_fuels" label="is_caused_by_the_use_of" type="directed"/>
+      <edge source="sustainable_development" target="energy_and_sustainability_theme" label="is_a_key_concept_of" type="directed"/>
+      <edge source="sustainable_development" target="environmental_impact_of_energy_use" label="is_a_solution_to" type="directed"/>
+      <edge source="momentum_and_conservation_theme" target="interaction_and_laws_of_motion" label="provides_alternative_approach_to" type="directed"/>
+      <edge source="momentum_and_impulse" target="momentum_and_conservation_theme" label="is_a_subtopic_of" type="directed"/>
+      <edge source="momentum" target="momentum_and_impulse" label="is_a_core_concept_of" type="directed"/>
+      <edge source="impulse" target="momentum_and_impulse" label="is_a_core_concept_of" type="directed"/>
+      <edge source="impulse_momentum_theorem" target="momentum_and_conservation_theme" label="is_a_key_theorem_in" type="directed"/>
+      <edge source="impulse_momentum_theorem" target="newtons_second_law" label="is_an_integral_form_of" type="directed"/>
+      <edge source="law_of_conservation_of_momentum" target="momentum_and_conservation_theme" label="is_a_fundamental_law_in" type="directed"/>
+      <edge source="conditions_for_momentum_conservation" target="law_of_conservation_of_momentum" label="defines_the_applicability_of" type="directed"/>
+      <edge source="law_of_conservation_of_momentum" target="newtons_third_law" label="is_derived_from" type="directed"/>
+      <edge source="collisions" target="law_of_conservation_of_momentum" label="is_a_major_application_of" type="directed"/>
+      <edge source="elastic_collision" target="collisions" label="is_a_type_of" type="directed"/>
+      <edge source="inelastic_collision" target="collisions" label="is_a_type_of" type="directed"/>
+      <edge source="completely_inelastic_collision" target="inelastic_collision" label="is_a_special_case_of" type="directed"/>
+      <edge source="rocket_propulsion" target="law_of_conservation_of_momentum" label="is_an_application_of" type="directed"/>
+      <edge source="ballistic_pendulum" target="law_of_conservation_of_momentum" label="is_an_experimental_application_of" type="directed"/>
+      <edge source="ballistic_pendulum" target="mechanical_energy_and_conservation" label="is_an_experimental_application_of" type="directed"/>
+      <edge source="mechanical_vibration_and_waves_theme" target="mechanical_motion_and_physical_models" label="is_a_special_type_of" type="directed"/>
+      <edge source="simple_harmonic_motion" target="mechanical_vibration_and_waves_theme" label="is_a_fundamental_type_of_vibration_in" type="directed"/>
+      <edge source="restoring_force" target="simple_harmonic_motion" label="is_the_cause_of" type="directed"/>
+      <edge source="amplitude_period_frequency" target="simple_harmonic_motion" label="are_kinematic_descriptions_of" type="directed"/>
+      <edge source="energy_in_shm" target="simple_harmonic_motion" label="describes_energy_transformation_in" type="directed"/>
+      <edge source="spring_pendulum" target="simple_harmonic_motion" label="is_an_example_of" type="directed"/>
+      <edge source="simple_pendulum" target="simple_harmonic_motion" label="is_an_approximate_example_of" type="directed"/>
+      <edge source="damped_and_forced_vibration" target="mechanical_vibration_and_waves_theme" label="are_more_complex_types_of_vibration_in" type="directed"/>
+      <edge source="resonance" target="forced_vibration" label="is_a_special_case_of" type="directed"/>
+      <edge source="mechanical_waves" target="mechanical_vibration_and_waves_theme" label="is_a_propagation_of_vibration_in" type="directed"/>
+      <edge source="transverse_and_longitudinal_waves" target="mechanical_waves" label="are_two_types_of" type="directed"/>
+      <edge source="wavelength_wave_speed_frequency_relation" target="mechanical_waves" label="is_a_fundamental_relation_for" type="directed"/>
+      <edge source="wave_superposition" target="mechanical_waves" label="is_a_principle_governing" type="directed"/>
+      <edge source="wave_interference" target="wave_superposition" label="is_a_result_of" type="directed"/>
+      <edge source="wave_diffraction" target="mechanical_waves" label="is_a_phenomenon_of" type="directed"/>
+      <edge source="doppler_effect" target="mechanical_waves" label="is_a_phenomenon_of" type="directed"/>
+      <edge source="light_and_applications_theme" target="electromagnetic_field_and_waves_theme" label="is_a_specific_domain_within" type="directed"/>
+      <edge source="light_and_applications_theme" target="mechanical_vibration_and_waves_theme" label="shares_phenomena_with" type="directed"/>
+      <edge source="light_refraction_and_total_reflection" target="light_and_applications_theme" label="is_a_subtopic_of" type="directed"/>
+      <edge source="snells_law_of_refraction" target="light_refraction_and_total_reflection" label="is_the_fundamental_law_of" type="directed"/>
+      <edge source="refractive_index" target="snells_law_of_refraction" label="is_a_key_concept_in" type="directed"/>
+      <edge source="total_internal_reflection" target="light_refraction_and_total_reflection" label="is_a_special_case_of" type="directed"/>
+      <edge source="critical_angle" target="total_internal_reflection" label="is_the_condition_for" type="directed"/>
+      <edge source="optical_fiber_communication" target="total_internal_reflection" label="is_an_application_of" type="directed"/>
+      <edge source="wave_nature_of_light" target="light_and_applications_theme" label="is_a_subtopic_of" type="directed"/>
+      <edge source="light_interference" target="wave_nature_of_light" label="is_a_phenomenon_demonstrating" type="directed"/>
+      <edge source="light_diffraction" target="wave_nature_of_light" label="is_a_phenomenon_demonstrating" type="directed"/>
+      <edge source="light_polarization" target="wave_nature_of_light" label="is_a_phenomenon_demonstrating" type="directed"/>
+      <edge source="laser_and_its_applications" target="light_and_applications_theme" label="is_a_subtopic_of" type="directed"/>
+      <edge source="laser_properties" target="laser_and_its_applications" label="describes" type="directed"/>
+      <edge source="holography" target="laser_and_its_applications" label="is_an_application_of" type="directed"/>
+      <edge source="HighSchoolPhysics" target="KP_Sensors" label="is parent of" type="directed"/>
+      <edge source="KP_Sensors" target="KP_CommonSensorPrinciples" label="contains" type="directed"/>
+      <edge source="KP_CommonSensorPrinciples" target="KP_Photoresistor" label="is example of" type="directed"/>
+      <edge source="KP_CommonSensorPrinciples" target="KP_Thermistor" label="is example of" type="directed"/>
+      <edge source="KP_CommonSensorPrinciples" target="KP_HallElement" label="is example of" type="directed"/>
+      <edge source="KP_Sensors" target="KP_SensorApplications" label="studies" type="directed"/>
+      <edge source="KP_Photoresistor" target="KP_Resistance" label="is a type of" type="directed"/>
+      <edge source="KP_Photoresistor" target="KP_PhotoelectricEffect" label="is based on" type="directed"/>
+      <edge source="KP_Thermistor" target="KP_Resistance" label="is a type of" type="directed"/>
+      <edge source="KP_Thermistor" target="KP_ThermalScience" label="related to" type="directed"/>
+      <edge source="KP_HallElement" target="KP_HallEffect" label="is based on" type="directed"/>
+      <edge source="KP_HallEffect" target="KP_MagneticField" label="involves" type="directed"/>
+      <edge source="KP_HallEffect" target="KP_ElectricCharge" label="involves" type="directed"/>
+      <edge source="传感器在生活中的应用" target="KP_Sensors" label="是...的应用" type="directed"/>
+      <edge source="atomic_and_nuclear_physics" target="HighSchoolPhysics" label="is_a_major_branch_of" type="directed"/>
+      <edge source="alpha_particle_scattering_experiment" target="rutherford_nuclear_model" label="provides_evidence_for" type="directed"/>
+      <edge source="rutherford_nuclear_model" target="atomic_structure_models" label="is_a_type_of" type="directed"/>
+      <edge source="bohr_atomic_model" target="atomic_structure_models" label="is_a_type_of" type="directed"/>
+      <edge source="bohr_atomic_model" target="rutherford_nuclear_model" label="is_an_improvement_on" type="directed"/>
+      <edge source="energy_levels" target="bohr_atomic_model" label="is_a_key_concept_in" type="directed"/>
+      <edge source="energy_level_transition" target="energy_levels" label="occurs_between" type="directed"/>
+      <edge source="energy_level_transition" target="atomic_spectra" label="produces" type="directed"/>
+      <edge source="atomic_spectra" target="energy_levels" label="is_evidence_for" type="directed"/>
+      <edge source="hydrogen_atom_spectrum" target="atomic_spectra" label="is_an_example_of" type="directed"/>
+      <edge source="atomic_nucleus" target="rutherford_nuclear_model" label="is_the_central_part_of" type="directed"/>
+      <edge source="proton" target="nucleon" label="is_a_type_of" type="directed"/>
+      <edge source="neutron" target="nucleon" label="is_a_type_of" type="directed"/>
+      <edge source="nucleon" target="atomic_nucleus" label="composes" type="directed"/>
+      <edge source="mass_number" target="atomic_nucleus" label="describes_property_of" type="directed"/>
+      <edge source="charge_number" target="atomic_nucleus" label="describes_property_of" type="directed"/>
+      <edge source="nuclear_reaction_equation" target="nuclear_reaction" label="describes" type="directed"/>
+      <edge source="nuclear_reaction_equation" target="conservation_of_mass_number" label="must_obey" type="directed"/>
+      <edge source="nuclear_reaction_equation" target="conservation_of_charge" label="must_obey" type="directed"/>
+      <edge source="radioactive_decay" target="radioactivity" label="is_a_manifestation_of" type="directed"/>
+      <edge source="radioactive_decay" target="nuclear_reaction" label="is_a_type_of" type="directed"/>
+      <edge source="alpha_decay" target="radioactive_decay" label="is_a_type_of" type="directed"/>
+      <edge source="beta_decay" target="radioactive_decay" label="is_a_type_of" type="directed"/>
+      <edge source="gamma_decay" target="radioactive_decay" label="is_a_type_of" type="directed"/>
+      <edge source="half_life" target="radioactive_decay" label="characterizes_the_rate_of" type="directed"/>
+      <edge source="radioisotopes" target="radiation_protection" label="requires" type="directed"/>
+      <edge source="nuclear_fission" target="nuclear_reaction" label="is_a_type_of" type="directed"/>
+      <edge source="nuclear_fusion" target="nuclear_reaction" label="is_a_type_of" type="directed"/>
+      <edge source="nuclear_fission" target="nuclear_energy" label="releases" type="directed"/>
+      <edge source="nuclear_fusion" target="nuclear_energy" label="releases" type="directed"/>
+      <edge source="chain_reaction" target="nuclear_fission" label="is_a_key_process_in_sustained" type="directed"/>
+      <edge source="nuclear_power_plant" target="nuclear_fission" label="utilizes" type="directed"/>
+      <edge source="nuclear_waste" target="nuclear_fission" label="is_a_byproduct_of" type="directed"/>
+      <edge source="nuclear_safety" target="nuclear_power_plant" label="is_a_major_concern_for" type="directed"/>
+      <edge source="thermonuclear_reaction" target="nuclear_fusion" label="is_a_type_of" type="directed"/>
+      <edge source="sun_energy_source" target="thermonuclear_reaction" label="is" type="directed"/>
+      <edge source="particle_physics" target="atomic_and_nuclear_physics" label="is_an_extension_of" type="directed"/>
+      <edge source="wave_particle_duality" target="HighSchoolPhysics" label="is_a_fundamental_concept_in" type="directed"/>
+      <edge source="light_particle_nature" target="wave_particle_duality" label="is_one_aspect_of" type="directed"/>
+      <edge source="particle_wave_nature" target="wave_particle_duality" label="is_one_aspect_of" type="directed"/>
+      <edge source="photoelectric_effect" target="light_particle_nature" label="is_evidence_for" type="directed"/>
+      <edge source="einstein_photoelectric_equation" target="photoelectric_effect" label="explains" type="directed"/>
+      <edge source="einstein_photoelectric_equation" target="photon_concept" label="is_based_on" type="directed"/>
+      <edge source="photon_concept" target="planck_hypothesis" label="originates_from" type="directed"/>
+      <edge source="work_function" target="einstein_photoelectric_equation" label="is_a_term_in" type="directed"/>
+      <edge source="de_broglie_hypothesis" target="particle_wave_nature" label="proposes" type="directed"/>
+      <edge source="electron_diffraction_experiment" target="de_broglie_hypothesis" label="verifies" type="directed"/>
+      <edge source="matter_wave" target="de_broglie_hypothesis" label="is_the_central_idea_of" type="directed"/>
+      <edge source="quantization_concept" target="wave_particle_duality" label="is_a_core_idea_of_quantum_theory" type="directed"/>
+      <edge source="planck_hypothesis" target="quantization_concept" label="is_an_early_example_of" type="directed"/>
+      <edge source="energy_levels" target="quantization_concept" label="is_an_example_of" type="directed"/>
+      <edge source="heisenberg_uncertainty_principle" target="wave_particle_duality" label="is_a_consequence_of" type="directed"/>
+      <edge source="quantum_technology" target="wave_particle_duality" label="is_an_application_of" type="directed"/>
+      <edge source="light_particle_nature" target="wave_nature_of_light" label="complements" type="directed"/>
+      <edge source="uncertainty_principle" target="wave_particle_duality" label="is_a_key_principle_of" type="directed"/>
+      <edge source="wave_particle_duality" target="quantum_mechanics" label="is_a_foundational_concept_of" type="directed"/>
+      <edge source="solids_liquids_gases_theme" target="HighSchoolPhysics" label="is_a_major_branch_of" type="directed"/>
+      <edge source="molecular_kinetic_theory" target="solids_liquids_gases_theme" label="is_the_fundamental_theory_of" type="directed"/>
+      <edge source="diffusion" target="molecular_kinetic_theory" label="is_evidence_for" type="directed"/>
+      <edge source="brownian_motion" target="molecular_kinetic_theory" label="is_evidence_for" type="directed"/>
+      <edge source="intermolecular_forces" target="molecular_kinetic_theory" label="is_a_core_concept_of" type="directed"/>
+      <edge source="oil_film_experiment" target="molecular_size_estimation" label="is_a_method_for" type="directed"/>
+      <edge source="crystal_and_amorphous" target="solids_liquids_gases_theme" label="is_a_classification_within" type="directed"/>
+      <edge source="liquid_crystal" target="solids_liquids_gases_theme" label="is_a_state_of_matter_within" type="directed"/>
+      <edge source="surface_tension" target="solids_liquids_gases_theme" label="is_a_phenomenon_in" type="directed"/>
+      <edge source="surface_tension" target="intermolecular_forces" label="is_caused_by" type="directed"/>
+      <edge source="capillarity" target="solids_liquids_gases_theme" label="is_a_phenomenon_in" type="directed"/>
+      <edge source="ideal_gas_model" target="solids_liquids_gases_theme" label="is_a_model_within" type="directed"/>
+      <edge source="ideal_gas_law" target="gas_experimental_laws" label="is_a_synthesis_of" type="directed"/>
+      <edge source="gas_experimental_laws" target="ideal_gas_model" label="are_obeyed_by" type="directed"/>
+      <edge source="thermodynamic_laws_theme" target="solids_liquids_gases_theme" label="builds_upon" type="directed"/>
+      <edge source="first_law_of_thermodynamics" target="thermodynamic_laws_theme" label="is_a_fundamental_law_of" type="directed"/>
+      <edge source="first_law_of_thermodynamics" target="law_of_conservation_of_energy_global" label="is_a_manifestation_of" type="directed"/>
+      <edge source="internal_energy" target="first_law_of_thermodynamics" label="is_a_key_concept_in" type="directed"/>
+      <edge source="work_and_heat_in_thermodynamics" target="first_law_of_thermodynamics" label="are_processes_in" type="directed"/>
+      <edge source="second_law_of_thermodynamics" target="thermodynamic_laws_theme" label="is_a_fundamental_law_of" type="directed"/>
+      <edge source="second_law_of_thermodynamics" target="directionality_of_thermal_processes" label="explains" type="directed"/>
+      <edge source="entropy" target="second_law_of_thermodynamics" label="is_a_key_concept_in" type="directed"/>
+      <edge source="first_kind_perpetual_motion_machine" target="perpetual_motion_machine" label="is_a_type_of" type="directed"/>
+      <edge source="second_kind_perpetual_motion_machine" target="perpetual_motion_machine" label="is_a_type_of" type="directed"/>
+      <edge source="first_kind_perpetual_motion_machine" target="first_law_of_thermodynamics" label="violates" type="directed"/>
+      <edge source="second_kind_perpetual_motion_machine" target="second_law_of_thermodynamics" label="violates" type="directed"/>
+      <edge source="physics_and_medical_tech_theme" target="HighSchoolPhysics" label="is_an_application_domain_of" type="directed"/>
+      <edge source="ultrasound_imaging" target="physics_and_medical_tech_theme" label="is_an_example_of" type="directed"/>
+      <edge source="ultrasound_imaging" target="mechanical_waves" label="is_based_on" type="directed"/>
+      <edge source="color_doppler_ultrasound" target="ultrasound_imaging" label="is_an_enhancement_of" type="directed"/>
+      <edge source="color_doppler_ultrasound" target="doppler_effect" label="applies" type="directed"/>
+      <edge source="x_ray_computed_tomography" target="physics_and_medical_tech_theme" label="is_an_example_of" type="directed"/>
+      <edge source="x_ray_computed_tomography" target="x_rays" label="is_based_on" type="directed"/>
+      <edge source="radiotherapy" target="physics_and_medical_tech_theme" label="is_an_example_of" type="directed"/>
+      <edge source="radiotherapy" target="radioisotopes" label="utilizes" type="directed"/>
+      <edge source="radiotherapy" target="nuclear_reaction" label="is_an_application_of" type="directed"/>
+      <edge source="medical_radiation_protection" target="radiation_protection" label="is_a_specific_field_of" type="directed"/>
+      <edge source="medical_radiation_protection" target="radiotherapy" label="is_essential_for" type="directed"/>
+      <edge source="medical_radiation_protection" target="x_ray_computed_tomography" label="is_essential_for" type="directed"/>
+      <edge source="physics_and_new_energy_theme" target="energy_and_sustainability_theme" label="is_a_deeper_exploration_of" type="directed"/>
+      <edge source="necessity_of_renewable_energy" target="physics_and_new_energy_theme" label="is_a_topic_within" type="directed"/>
+      <edge source="necessity_of_renewable_energy" target="renewable_and_non_renewable_energy" label="emphasizes_the_importance_of_developing" type="directed"/>
+      <edge source="solar_energy_utilization_tech" target="physics_and_new_energy_theme" label="is_a_topic_within" type="directed"/>
+      <edge source="solar_energy_utilization_tech" target="solar_energy" label="is_the_application_of" type="directed"/>
+      <edge source="photovoltaic_power_generation" target="solar_energy_utilization_tech" label="is_a_type_of" type="directed"/>
+      <edge source="photovoltaic_power_generation" target="photoelectric_effect" label="is_based_on" type="directed"/>
+      <edge source="photothermal_conversion" target="solar_energy_utilization_tech" label="is_a_type_of" type="directed"/>
+      <edge source="nuclear_energy_potential_and_risk" target="physics_and_new_energy_theme" label="is_a_topic_within" type="directed"/>
+      <edge source="nuclear_energy_potential_and_risk" target="nuclear_energy" label="analyzes" type="directed"/>
+      <edge source="international_nuclear_accidents" target="nuclear_energy_potential_and_risk" label="provides_case_studies_for" type="directed"/>
+      <edge source="international_nuclear_accidents" target="nuclear_safety" label="highlights_the_importance_of" type="directed"/>
+      <edge source="physics_and_new_materials_theme" target="HighSchoolPhysics" label="is_an_application_domain_of" type="directed"/>
+      <edge source="nanomaterials" target="physics_and_new_materials_theme" label="is_a_topic_within" type="directed"/>
+      <edge source="superconducting_materials" target="physics_and_new_materials_theme" label="is_a_topic_within" type="directed"/>
+      <edge source="functional_materials" target="physics_and_new_materials_theme" label="is_a_topic_within" type="directed"/>
+      <edge source="nanomaterials" target="quantum_mechanics" label="exhibits_effects_from" type="directed"/>
+      <edge source="superconducting_materials" target="quantum_mechanics" label="is_a_phenomenon_explained_by" type="directed"/>
+      <edge source="zero_resistance" target="superconducting_materials" label="is_a_property_of" type="directed"/>
+      <edge source="meissner_effect" target="superconducting_materials" label="is_a_property_of" type="directed"/>
+      <edge source="zero_resistance" target="resistance_and_resistivity" label="is_the_absence_of" type="directed"/>
+      <edge source="sensors_theme" target="HighSchoolPhysics" label="is_an_application_domain_of" type="directed"/>
+      <edge source="sensor_working_principle" target="sensors_theme" label="explains" type="directed"/>
+      <edge source="photoresistor" target="sensor_working_principle" label="is_an_example_of" type="directed"/>
+      <edge source="thermistor" target="sensor_working_principle" label="is_an_example_of" type="directed"/>
+      <edge source="hall_element" target="sensor_working_principle" label="is_an_example_of" type="directed"/>
+      <edge source="hall_element" target="hall_effect" label="is_based_on" type="directed"/>
+      <edge source="hall_effect" target="magnetic_field_theme" label="is_a_phenomenon_in" type="directed"/>
+      <edge source="sensor_applications_in_life" target="sensors_theme" label="is_a_topic_within" type="directed"/>
+      <edge source="displacement_velocity_acceleration" target="function_definition_and_elements" label="is_defined_by" type="directed"/>
+      <edge source="displacement_velocity_acceleration" target="function_definition_and_elements" label="is_modeled_by" type="directed"/>
+      <edge source="instantaneous_velocity" target="monotonicity_and_extrema" label="requires" type="directed"/>
+      <edge source="motion_graphs" target="graphical_method" label="instantiates" type="directed"/>
+      <edge source="vt_graph" target="function_representation_methods" label="is_an_instance_of" type="directed"/>
+      <edge source="vector_and_scalar" target="set_concepts_and_representation" label="requires" type="directed"/>
+      <edge source="uniformly_accelerated_linear_motion" target="quadratic_equation_and_inequality" label="models" type="directed"/>
+      <edge source="acceleration_concept" target="monotonicity_and_extrema" label="models" type="directed"/>
+      <edge source="time_and_instant" target="function_definition_and_elements" label="is_formalized_by" type="directed"/>
+      <edge source="reference_frame" target="set_relations_and_operations" label="is_formalized_by" type="directed"/>
+      <edge source="displacement_velocity_acceleration" target="function_definition_and_elements" label="models" type="directed"/>
+      <edge source="displacement_velocity_acceleration" target="function_definition_and_elements" label="structurally_similar" type="directed"/>
+      <edge source="displacement_velocity_acceleration" target="function_definition_and_elements" label="requires" type="directed"/>
+      <edge source="displacement_velocity_acceleration" target="function_definition_and_elements" label="structurally_isomorphic" type="directed"/>
+    </edges>
+  </graph>
+</gexf>

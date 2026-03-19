@@ -23,37 +23,15 @@ with open(dataset_dir / "physics_knowledge_graph_new.json") as f:
 with open(dataset_dir / "math_knowledge_graph_new.json") as f:
     math_graph = json.load(f)
 
-# 手动选择10对有意义的节点
+# 选择1对有意义的节点用于多轮对话测试
 node_pairs = [
-    # 运动与函数
+    # 运动与函数 - 这是一个很好的跨学科关联例子
     ("displacement_velocity_acceleration", "function_definition_and_elements"),
-    ("instantaneous_velocity", "monotonicity_and_extrema"),
-    
-    # 图像
-    ("motion_graphs", "graphical_method"),
-    ("vt_graph", "function_representation_methods"),
-    
-    # 向量
-    ("vector_and_scalar", "set_concepts_and_representation"),
-    
-    # 方程
-    ("uniformly_accelerated_linear_motion", "quadratic_equation_and_inequality"),
-    
-    # 变化
-    ("acceleration_concept", "monotonicity_and_extrema"),
-    
-    # 时间
-    ("time_and_instant", "function_definition_and_elements"),
-    
-    # 关系
-    ("reference_frame", "set_relations_and_operations"),
-    
-    # 运动学
-    ("kinematics_concepts", "function_theme"),
 ]
 
 print("="*70)
-print(f"小规模采样演示：{len(node_pairs)} 对节点")
+print(f"多轮对话测试：{len(node_pairs)} 对节点")
+print(f"测试节点对: [位移、速度与加速度] ↔ [函数定义与三要素]")
 print("="*70)
 print()
 

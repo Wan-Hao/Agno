@@ -8,6 +8,7 @@ from .audio_processor import AudioProcessor
 from .video_processor import VideoProcessor
 from .web_processor import WebProcessor
 from .knowledge_graph_processor import KnowledgeGraphProcessor
+from .scenic_processor import ScenicSpotProcessor
 
 __all__ = [
     "TextProcessor",
@@ -16,6 +17,7 @@ __all__ = [
     "AudioProcessor",
     "VideoProcessor",
     "WebProcessor",
-    "KnowledgeGraphProcessor"
+    "KnowledgeGraphProcessor",
+    "ScenicSpotProcessor"
 ]
 

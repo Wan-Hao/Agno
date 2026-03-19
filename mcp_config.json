@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "qdrant-docs": {
+      "command": "/Users/wanhao3/Agno/qdrant-mcp-server/.venv/bin/python",
+      "args": [
+        "/Users/wanhao3/Agno/qdrant-mcp-server/qdrant_docs_mcp/server.py"
+      ],
+      "env": {}
+    }
+  }
+}
